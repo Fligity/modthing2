@@ -619,6 +619,150 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "holy_peniswood_stick_recipe"
+    },
+    {
+      "name": "HolypeniswoodPickaxe",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holypeniswood_pickaxe"
+    },
+    {
+      "name": "HolypeniswoodAxe",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holypeniswood_axe"
+    },
+    {
+      "name": "HolypeniswoodSword",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holypeniswood_sword"
+    },
+    {
+      "name": "HolypeniswoodShovel",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holypeniswood_shovel"
+    },
+    {
+      "name": "HolypeniswoodHoe",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holypeniswood_hoe"
+    },
+    {
+      "name": "HolypeniswoodPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holypeniswood_pickaxe_recipe"
+    },
+    {
+      "name": "HolypeniswoodAxeRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holypeniswood_axe_recipe"
+    },
+    {
+      "name": "HolypeniswoodSwordRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holypeniswood_sword_recipe"
+    },
+    {
+      "name": "HolypeniswoodShovelRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holypeniswood_shovel_recipe"
+    },
+    {
+      "name": "HolypeniswoodHoeRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holypeniswood_hoe_recipe"
+    },
+    {
+      "name": "Penite",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penite"
+    },
+    {
+      "name": "PeniteOre",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penite_ore"
+    },
+    {
+      "name": "PeniteBlock",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penite_block"
+    },
+    {
+      "name": "PeniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penite_ore_block_recipe"
+    },
+    {
+      "name": "PeniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penite_block_ore_recipe"
+    },
+    {
+      "name": "PeniteOreSmelting",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penite_ore_smelting"
     }
   ],
   "variable_elements": [],
@@ -629,21 +773,27 @@
       "biome.biomes_oh_planty.sea_men_biome": "Sea Men Biome",
       "block.biomes_oh_planty.cums": "Cums",
       "item.biomes_oh_planty.cumore": "Cumore",
+      "item.biomes_oh_planty.holypeniswood_axe": "Holypeniswood Axe",
       "biome.biomes_oh_planty.cumzonebiome_1": "New Cum Biome2",
       "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
       "block.biomes_oh_planty.holy_peniswood_stairs": "HolyPeniswood Stairs",
+      "item.biomes_oh_planty.penite": "Penite",
       "item.biomes_oh_planty.cums_bucket": "Cum in a Bucket",
       "item.biomes_oh_planty.cum_sword": "Cum Sword",
       "biome.biomes_oh_planty.dustbiome": "Dustbiome",
+      "item.biomes_oh_planty.holypeniswood_sword": "Holypeniswood Sword",
       "entity.biomes_oh_planty.cum_beast": "Cum Beast",
       "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
+      "item.biomes_oh_planty.holypeniswood_shovel": "Holypeniswood Shovel",
       "item.biomes_oh_planty.cum_axe": "Cum Axe",
       "block.biomes_oh_planty.holy_peniswood_wood": "HolyPeniswood Wood",
       "item.biomes_oh_planty.cumming_armor_leggings": "Cumming Leggings",
       "block.biomes_oh_planty.cumore_block": "Block of Cum",
+      "block.biomes_oh_planty.penite_block": "Block of Penite",
       "block.biomes_oh_planty.holy_peniswood_slab": "HolyPeniswood Slab",
       "biome.biomes_oh_planty.susus": "Susus",
       "item.biomes_oh_planty.cum_shovel": "Cum Shovel",
+      "item.biomes_oh_planty.holypeniswood_pickaxe": "Holypeniswood Pickaxe",
       "item.biomes_oh_planty.cum_zone": "Cum Zone Portal Igniter",
       "item.biomes_oh_planty.cockynoodle": "Cockynoodle",
       "block.biomes_oh_planty.holy_peniswood_leaves": "HolyPeniswood Leaves",
@@ -659,7 +809,9 @@
       "block.biomes_oh_planty.holy_peniswood_pressure_plate": "HolyPeniswood Pressure Plate",
       "block.biomes_oh_planty.holy_peniswood_button": "HolyPeniswood Button",
       "item.biomes_oh_planty.cumming_armor_boots": "Cumming Boots",
+      "block.biomes_oh_planty.penite_ore": "Penite Ore",
       "item.biomes_oh_planty.cumming_armor_helmet": "Cumming Helmet",
+      "item.biomes_oh_planty.holypeniswood_hoe": "Holypeniswood Hoe",
       "fluid.biomes_oh_planty.cums": "Cums",
       "biome.biomes_oh_planty.torchbiome": "Torchbiome",
       "biome.biomes_oh_planty.bedbiome": "Bedbiome",

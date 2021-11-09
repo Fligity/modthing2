@@ -1,0 +1,30 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "biomes_oh_planty:holy_peniswood_planks"
+    },
+    "1": {
+      "item": "biomes_oh_planty:holy_peniswood_planks"
+    },
+    "2": {
+      "item": "biomes_oh_planty:holy_peniswood_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "biomes_oh_planty:holypeniswood_pickaxe",
+    "count": 1
+  }
+}

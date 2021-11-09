@@ -1,0 +1,12 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "biomes_oh_planty:penite_ore"
+  },
+  "result": {
+    "item": "biomes_oh_planty:penite"
+  }
+}

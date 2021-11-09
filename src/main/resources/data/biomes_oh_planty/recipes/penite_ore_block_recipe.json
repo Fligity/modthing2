@@ -1,0 +1,42 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "biomes_oh_planty:penite"
+    },
+    "1": {
+      "item": "biomes_oh_planty:penite"
+    },
+    "2": {
+      "item": "biomes_oh_planty:penite"
+    },
+    "3": {
+      "item": "biomes_oh_planty:penite"
+    },
+    "4": {
+      "item": "biomes_oh_planty:penite"
+    },
+    "5": {
+      "item": "biomes_oh_planty:penite"
+    },
+    "6": {
+      "item": "biomes_oh_planty:penite"
+    },
+    "7": {
+      "item": "biomes_oh_planty:penite"
+    },
+    "8": {
+      "item": "biomes_oh_planty:penite"
+    }
+  },
+  "result": {
+    "item": "biomes_oh_planty:penite_block",
+    "count": 1
+  }
+}
