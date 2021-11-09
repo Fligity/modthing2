@@ -43,7 +43,7 @@ public class CummingArmorItem extends BiomesOhPlantyModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{0, 0, 0, 0}[slot.getIndex()];
+				return new int[]{1000, 1000, 1000, 1000}[slot.getIndex()];
 			}
 
 			@Override

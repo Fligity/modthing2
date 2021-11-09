@@ -100,9 +100,7 @@ public class CumsBlock extends BiomesOhPlantyModElements.ModElement {
 						int z = pos.getZ();
 						{
 							Map<String, Object> $_dependencies = new HashMap<>();
-							$_dependencies.put("x", x);
-							$_dependencies.put("y", y);
-							$_dependencies.put("z", z);
+							$_dependencies.put("entity", entity);
 							$_dependencies.put("world", world);
 							CumcumorHelmetTickEventProcedure.executeProcedure($_dependencies);
 						}
