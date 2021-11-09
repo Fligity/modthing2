@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "biomes_oh_planty:block/cum_zone_portal_ew"
+    },
+    "axis=x": {
+      "model": "biomes_oh_planty:block/cum_zone_portal_ns"
+    }
+  }
+}

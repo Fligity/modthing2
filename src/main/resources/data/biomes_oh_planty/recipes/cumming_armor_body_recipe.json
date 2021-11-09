@@ -1,0 +1,22 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "result": {
+    "item": "biomes_oh_planty:cumming_armor_chestplate",
+    "count": 1
+  }
+}

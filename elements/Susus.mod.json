@@ -1,0 +1,164 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "Susus",
+    "groundBlock": {
+      "value": "Blocks.GRAY_GLAZED_TERRACOTTA"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.CONCRETE#10"
+    },
+    "airColor": {
+      "value": -5565454,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6473779,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -5028377,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -1828590,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16253158,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "music.nether.crimson_forest"
+    },
+    "additionsSound": {
+      "value": "ambient.basalt_deltas.mood"
+    },
+    "music": {
+      "value": "record.pigstep"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 25000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CRIMSON_SPORE"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NETHER",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.5,
+    "temperature": 1.0,
+    "baseHeight": 0.3,
+    "heightVariation": 0.5,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 8,
+    "biomeDictionaryTypes": [
+      "NETHER"
+    ],
+    "grassPerChunk": 10,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 2,
+    "bigMushroomsChunk": 3,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 10,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": "Blocks.MUSHROOM_STEM"
+    },
+    "treeBranch": {
+      "value": "Blocks.MOB_SPAWNER"
+    },
+    "treeVines": {
+      "value": "Blocks.BEDROCK"
+    },
+    "treeFruits": {
+      "value": "Blocks.TNT"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": true,
+    "oceanRuinType": "WARM",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "MonsterRooms"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityGhast"
+        },
+        "minGroup": 5,
+        "maxGroup": 10,
+        "weight": 80,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityPiglin"
+        },
+        "minGroup": 4,
+        "maxGroup": 8,
+        "weight": 90,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityIllusionIllager"
+        },
+        "minGroup": 4,
+        "maxGroup": 5,
+        "weight": 100,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 4,
+        "maxGroup": 10,
+        "weight": 50,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityWitherSkeleton"
+        },
+        "minGroup": 4,
+        "maxGroup": 5,
+        "weight": 40,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityAgeable"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

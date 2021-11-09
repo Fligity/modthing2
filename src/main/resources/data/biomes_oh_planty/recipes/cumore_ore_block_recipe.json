@@ -1,0 +1,42 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "biomes_oh_planty:cumore"
+    },
+    "1": {
+      "item": "biomes_oh_planty:cumore"
+    },
+    "2": {
+      "item": "biomes_oh_planty:cumore"
+    },
+    "3": {
+      "item": "biomes_oh_planty:cumore"
+    },
+    "4": {
+      "item": "biomes_oh_planty:cumore"
+    },
+    "5": {
+      "item": "biomes_oh_planty:cumore"
+    },
+    "6": {
+      "item": "biomes_oh_planty:cumore"
+    },
+    "7": {
+      "item": "biomes_oh_planty:cumore"
+    },
+    "8": {
+      "item": "biomes_oh_planty:cumore"
+    }
+  },
+  "result": {
+    "item": "biomes_oh_planty:cumore_block",
+    "count": 1
+  }
+}

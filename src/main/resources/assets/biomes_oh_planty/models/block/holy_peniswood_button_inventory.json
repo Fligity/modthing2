@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "biomes_oh_planty:blocks/holypeniswood_planks"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_diorite"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "minecraft:polished_diorite"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "result": {
+    "item": "biomes_oh_planty:cumming_armor_helmet",
+    "count": 1
+  }
+}

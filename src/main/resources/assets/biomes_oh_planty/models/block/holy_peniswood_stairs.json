@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "biomes_oh_planty:blocks/holypeniswood_planks",
+    "top": "biomes_oh_planty:blocks/holypeniswood_planks",
+    "side": "biomes_oh_planty:blocks/holypeniswood_planks"
+  }
+}

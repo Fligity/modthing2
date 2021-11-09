@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Cumzonebiome1"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.CONCRETE_POWDER#0"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Cums"
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Blockofcum"
+    },
+    "portalParticles": {
+      "value": "SPIT"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Cum Zone Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "cumignitor",
+    "portalTexture": "cumingotblock",
+    "enablePortal": true
+  }
+}

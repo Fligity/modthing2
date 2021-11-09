@@ -1,0 +1,52 @@
+{
+  "_fv": 24,
+  "_type": "fluid",
+  "definition": {
+    "name": "Cums",
+    "bucketName": "Cum in a Bucket",
+    "textureStill": "animated_cum_water",
+    "textureFlowing": "animated_cum_water",
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 1,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "WHITE_ASH"
+    },
+    "flowStrength": 25.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "cum_bucket",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": "block.honey_block.hit"
+    },
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Oh god - please no."
+    ],
+    "resistance": 100.0,
+    "luminance": 15,
+    "lightOpacity": 7,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 0,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "CumcumorHelmetTickEvent"
+    }
+  }
+}

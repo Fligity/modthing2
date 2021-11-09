@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "biomes_oh_planty:blocks/holypeniswood_planks",
+    "particle": "biomes_oh_planty:blocks/holypeniswood_planks"
+  }
+}

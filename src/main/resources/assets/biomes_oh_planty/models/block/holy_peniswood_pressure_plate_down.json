@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "biomes_oh_planty:blocks/holypeniswood_planks"
+  }
+}

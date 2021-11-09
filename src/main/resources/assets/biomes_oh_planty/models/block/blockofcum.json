@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biomes_oh_planty:blocks/purecum",
+    "up": "biomes_oh_planty:blocks/purecum",
+    "north": "biomes_oh_planty:blocks/purecum",
+    "east": "biomes_oh_planty:blocks/purecum",
+    "south": "biomes_oh_planty:blocks/purecum",
+    "west": "biomes_oh_planty:blocks/purecum",
+    "particle": "biomes_oh_planty:blocks/purecum"
+  }
+}

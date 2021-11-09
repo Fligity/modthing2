@@ -1,0 +1,147 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "Dustbiome",
+    "groundBlock": {
+      "value": "Blocks.CONCRETE_POWDER#1"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.CONCRETE#1"
+    },
+    "airColor": {
+      "value": -39424,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -3895702,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -39424,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13399,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13491689,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.soul_sand_valley.mood"
+    },
+    "additionsSound": {
+      "value": "block.furnace.fire_crackle"
+    },
+    "music": {
+      "value": "block.anvil.place"
+    },
+    "moodSound": {
+      "value": "block.conduit.ambient.short"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "FALLING_OBSIDIAN_TEAR"
+    },
+    "particlesProbability": 0.19999999999999998,
+    "biomeCategory": "DESERT",
+    "parent": {
+      "value": "CUSTOM:BigBiome"
+    },
+    "rainingPossibility": 0.0,
+    "temperature": 1.5,
+    "baseHeight": 0.0,
+    "heightVariation": 0.0,
+    "biomeType": "DESERT",
+    "spawnBiome": true,
+    "biomeWeight": 500,
+    "biomeDictionaryTypes": [
+      "PLAINS"
+    ],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 0,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": false,
+    "villageType": "desert",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": true,
+    "spawnIgloo": true,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": true,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
+      "MonsterRooms"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityDonkey"
+        },
+        "minGroup": 4,
+        "maxGroup": 9,
+        "weight": 50,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCreature"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityIronGolem"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityHoglin"
+        },
+        "minGroup": 3,
+        "maxGroup": 5,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "Death",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "airColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.nether_wastes.mood"
+    },
+    "additionsSound": {
+      "value": "ambient.nether_wastes.mood"
+    },
+    "music": {
+      "value": "ambient.nether_wastes.mood"
+    },
+    "moodSound": {
+      "value": "ambient.nether_wastes.mood"
+    },
+    "moodSoundDelay": 1,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "FALLING_OBSIDIAN_TEAR"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "baseHeight": 0.1,
+    "heightVariation": 2.0,
+    "biomeType": "DESERT",
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [
+      "FOREST"
+    ],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 11,
+    "maxWaterDepth": 10,
+    "treeStem": {
+      "value": "Blocks.FLOWING_LAVA"
+    },
+    "treeBranch": {
+      "value": "Blocks.GRAY_GLAZED_TERRACOTTA"
+    },
+    "treeVines": {
+      "value": "Blocks.MOB_SPAWNER"
+    },
+    "treeFruits": {
+      "value": "Blocks.STAINED_GLASS_PANE#7"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": true,
+    "spawnIgloo": true,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "oceanRuinType": "WARM",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "Fossils"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityWitherSkeleton"
+        },
+        "minGroup": 5,
+        "maxGroup": 14,
+        "weight": 100,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityHusk"
+        },
+        "minGroup": 10,
+        "maxGroup": 20,
+        "weight": 99,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityGhast"
+        },
+        "minGroup": 4,
+        "maxGroup": 10,
+        "weight": 97,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityWither"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityHoglin"
+        },
+        "minGroup": 10,
+        "maxGroup": 20,
+        "weight": 96,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityRavager"
+        },
+        "minGroup": 1,
+        "maxGroup": 10,
+        "weight": 95,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySnowman"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 95,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityLlamaSpit"
+        },
+        "minGroup": 40,
+        "maxGroup": 80,
+        "weight": 100,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

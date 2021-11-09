@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "biomes_oh_planty:block/holy_peniswood_slab"
+    },
+    "type=top": {
+      "model": "biomes_oh_planty:block/holy_peniswood_slab_top"
+    },
+    "type=double": {
+      "model": "biomes_oh_planty:block/holy_peniswood_slab_full"
+    }
+  }
+}

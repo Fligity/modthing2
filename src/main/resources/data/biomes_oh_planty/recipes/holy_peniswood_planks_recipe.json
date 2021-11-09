@@ -1,0 +1,13 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:holypeniswood_log"
+    }
+  ],
+  "result": {
+    "item": "biomes_oh_planty:holy_peniswood_planks",
+    "count": 4
+  }
+}

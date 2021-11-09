@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HolyPeniswoodPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:HolyPeniswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:HolyPeniswoodPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:HolyPeniswoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HolyPeniswoodFence"
+    },
+    "name": "holy_peniswood_fence_recipe",
+    "namespace": "mod"
+  }
+}

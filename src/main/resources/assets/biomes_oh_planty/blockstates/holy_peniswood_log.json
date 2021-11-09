@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "biomes_oh_planty:block/holy_peniswood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "biomes_oh_planty:block/holy_peniswood_log"
+    },
+    "axis=z": {
+      "model": "biomes_oh_planty:block/holy_peniswood_log",
+      "x": 90
+    }
+  }
+}
