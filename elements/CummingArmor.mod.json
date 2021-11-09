@@ -10,18 +10,6 @@
     "textureLeggings": "cumming_leggings",
     "enableBoots": true,
     "textureBoots": "cumming_boots",
-    "onHelmetTick": {
-      "name": "CumcumorHelmetTickEvent"
-    },
-    "onBodyTick": {
-      "name": "CumcumorHelmetTickEvent"
-    },
-    "onLeggingsTick": {
-      "name": "CumcumorHelmetTickEvent"
-    },
-    "onBootsTick": {
-      "name": "CumcumorHelmetTickEvent"
-    },
     "creativeTab": {
       "value": "COMBAT"
     },
