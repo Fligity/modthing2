@@ -127,13 +127,10 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.CONCRETE#0"
+        "value": "CUSTOM:CumzoneStone"
       }
     ],
-    "frequencyPerChunks": 11,
+    "frequencyPerChunks": 13,
     "frequencyOnChunk": 12,
     "minGenerateHeight": 1,
     "maxGenerateHeight": 63

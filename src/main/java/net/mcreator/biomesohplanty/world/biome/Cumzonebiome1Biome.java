@@ -101,6 +101,7 @@ public class Cumzonebiome1Biome extends BiomesOhPlantyModElements.ModElement {
 						Feature.RANDOM_PATCH.withConfiguration(Features.Configs.SUGAR_CANE_PATCH_CONFIG)
 								.withPlacement(Features.Placements.PATCH_PLACEMENT).func_242731_b(1));
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
+				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(CumBeastEntity.entity, 54, 4, 4));

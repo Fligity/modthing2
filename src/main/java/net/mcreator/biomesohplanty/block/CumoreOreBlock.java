@@ -32,7 +32,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -87,9 +86,7 @@ public class CumoreOreBlock extends BiomesOhPlantyModElements.ModElement {
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.STONE)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.WHITE_CONCRETE)
+			if (blockAt.getBlock() == CumzoneStoneBlock.block)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -117,7 +114,7 @@ public class CumoreOreBlock extends BiomesOhPlantyModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 12)).range(63)
-					.square().func_242731_b(11);
+					.square().func_242731_b(13);
 			event.getRegistry().register(feature.setRegistryName("cumore_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("biomes_oh_planty:cumore_ore"), configuredFeature);
 		}
