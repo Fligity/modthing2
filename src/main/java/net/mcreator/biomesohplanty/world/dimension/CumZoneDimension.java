@@ -54,6 +54,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock;
 
 import net.mcreator.biomesohplanty.item.CumZoneItem;
+import net.mcreator.biomesohplanty.block.CumzoneStoneBlock;
 import net.mcreator.biomesohplanty.block.BlockofcumBlock;
 import net.mcreator.biomesohplanty.BiomesOhPlantyModElements;
 
@@ -86,10 +87,10 @@ public class CumZoneDimension extends BiomesOhPlantyModElements.ModElement {
 			try {
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CAVE, "field_222718_j"))
-						.add(Blocks.WHITE_CONCRETE_POWDER).build(), "field_222718_j");
+						.add(CumzoneStoneBlock.block).build(), "field_222718_j");
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CANYON, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CANYON, "field_222718_j"))
-						.add(Blocks.WHITE_CONCRETE_POWDER).build(), "field_222718_j");
+						.add(CumzoneStoneBlock.block).build(), "field_222718_j");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

@@ -54,7 +54,7 @@
       "sea_level": 63,
       "disable_mob_generation": true,
       "default_block": {
-        "Name": "minecraft:white_concrete_powder"
+        "Name": "biomes_oh_planty:cumzone_stone"
       },
       "default_fluid": {
         "Name": "biomes_oh_planty:cums",

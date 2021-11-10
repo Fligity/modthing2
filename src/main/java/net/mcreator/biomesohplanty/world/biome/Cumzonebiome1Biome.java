@@ -42,6 +42,8 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.biomesohplanty.entity.CumBeastEntity;
+import net.mcreator.biomesohplanty.block.CumzoneStoneBlock;
+import net.mcreator.biomesohplanty.block.CumzoneGrassBlock;
 import net.mcreator.biomesohplanty.BiomesOhPlantyModElements;
 
 import java.util.Set;
@@ -74,9 +76,9 @@ public class Cumzonebiome1Biome extends BiomesOhPlantyModElements.ModElement {
 						.setMusic(new BackgroundMusicSelector((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
 								.getValue(new ResourceLocation("block.honey_block.place")), 12000, 24000, true))
 						.build();
-				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder().withSurfaceBuilder(
-						SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.WHITE_CONCRETE_POWDER.getDefaultState(),
-								Blocks.WHITE_CONCRETE.getDefaultState(), Blocks.WHITE_CONCRETE.getDefaultState())));
+				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
+						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(CumzoneGrassBlock.block.getDefaultState(),
+								CumzoneStoneBlock.block.getDefaultState(), CumzoneStoneBlock.block.getDefaultState())));
 				biomeGenerationSettings.withStructure(StructureFeatures.JUNGLE_PYRAMID);
 				biomeGenerationSettings.withStructure(StructureFeatures.IGLOO);
 				biomeGenerationSettings.withStructure(StructureFeatures.SHIPWRECK);

@@ -9,7 +9,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.CONCRETE_POWDER#0"
+      "value": "CUSTOM:CumzoneStone"
     },
     "fluidBlock": {
       "value": "CUSTOM:Cums"

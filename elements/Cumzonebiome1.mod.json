@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "New Cum Biome2",
+    "name": "CumZone Forest",
     "groundBlock": {
-      "value": "Blocks.CONCRETE_POWDER#0"
+      "value": "CUSTOM:CumzoneGrass"
     },
     "undergroundBlock": {
-      "value": "Blocks.CONCRETE#0"
+      "value": "CUSTOM:CumzoneStone"
     },
     "airColor": {
       "value": -1,
