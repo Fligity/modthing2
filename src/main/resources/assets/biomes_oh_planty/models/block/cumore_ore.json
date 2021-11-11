@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "biomes_oh_planty:blocks/cumore",
-    "particle": "biomes_oh_planty:blocks/cumore"
+    "all": "biomes_oh_planty:blocks/cumzoneore",
+    "particle": "biomes_oh_planty:blocks/cumzoneore"
   }
 }

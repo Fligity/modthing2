@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/leaves",
   "textures": {
-    "down": "biomes_oh_planty:blocks/pubes",
-    "up": "biomes_oh_planty:blocks/pubes",
-    "north": "biomes_oh_planty:blocks/pubes",
-    "east": "biomes_oh_planty:blocks/pubes",
-    "south": "biomes_oh_planty:blocks/pubes",
-    "west": "biomes_oh_planty:blocks/pubes",
+    "all": "biomes_oh_planty:blocks/pubes",
     "particle": "biomes_oh_planty:blocks/pubes"
   }
 }
