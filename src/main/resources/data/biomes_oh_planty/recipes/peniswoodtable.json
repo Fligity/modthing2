@@ -1,0 +1,26 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "biomes_oh_planty:holy_peniswood_planks"
+    },
+    "1": {
+      "item": "biomes_oh_planty:holy_peniswood_planks"
+    },
+    "2": {
+      "item": "biomes_oh_planty:holy_peniswood_planks"
+    },
+    "3": {
+      "item": "biomes_oh_planty:holy_peniswood_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

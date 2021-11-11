@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Cumzonebiome1"
+      },
+      {
+        "value": "CUSTOM:Cumzonetreepubes"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -36,7 +39,7 @@
       "value": "TOOLS"
     },
     "texture": "cumignitor",
-    "portalTexture": "cumingotblock",
+    "portalTexture": "cum_water",
     "enablePortal": true
   }
 }

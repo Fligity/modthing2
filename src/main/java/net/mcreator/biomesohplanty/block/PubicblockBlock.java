@@ -52,7 +52,7 @@ public class PubicblockBlock extends BiomesOhPlantyModElements.ModElement {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
+		RenderTypeLookup.setRenderLayer(block, RenderType.getTranslucent());
 	}
 	private static class BlockColorRegisterHandler {
 		@OnlyIn(Dist.CLIENT)
@@ -76,7 +76,8 @@ public class PubicblockBlock extends BiomesOhPlantyModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.6f, 10f).setLightLevel(s -> 0).notSolid()
+					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("pubicblock");
 		}
 

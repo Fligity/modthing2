@@ -97,9 +97,9 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 2,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:Cumdrop"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,

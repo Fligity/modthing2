@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "biomes_oh_planty:blocks/cumingotblock",
-    "portal": "biomes_oh_planty:blocks/cumingotblock"
+    "particle": "biomes_oh_planty:blocks/cum_water",
+    "portal": "biomes_oh_planty:blocks/cum_water"
   },
   "elements": [
     {

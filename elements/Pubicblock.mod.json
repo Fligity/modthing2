@@ -17,9 +17,9 @@
     "particleTexture": "",
     "tintType": "Foliage",
     "isItemTinted": true,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": true,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -34,7 +34,7 @@
     ],
     "name": "Pubic block",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 0.6,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
