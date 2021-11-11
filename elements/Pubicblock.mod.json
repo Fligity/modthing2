@@ -15,12 +15,11 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Leaves",
     "tintType": "Foliage",
     "isItemTinted": true,
     "hasTransparency": false,
     "connectedSides": true,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
