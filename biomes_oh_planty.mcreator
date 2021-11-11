@@ -791,7 +791,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pubicblock"
+      "registry_name": "pubicblock",
+      "path": "~/Cumzone/Blocks"
     },
     {
       "name": "Pube",
@@ -800,7 +801,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pube"
+      "registry_name": "pube",
+      "path": "~/Cumzone/CumzoneItems"
     }
   ],
   "variable_elements": [],
@@ -884,6 +886,10 @@
           },
           {
             "name": "Cum",
+            "children": []
+          },
+          {
+            "name": "CumzoneItems",
             "children": []
           }
         ]
