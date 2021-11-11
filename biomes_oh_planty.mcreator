@@ -366,7 +366,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cumzonebiome_1",
-      "path": "~/CumzoneBiomes"
+      "path": "~/Cumzone/CumzoneBiomes"
     },
     {
       "name": "Cumore",
@@ -772,7 +772,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cumzone_grass",
-      "path": "~/Blocks"
+      "path": "~/Cumzone/Blocks"
     },
     {
       "name": "CumzoneStone",
@@ -782,7 +782,25 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cumzone_stone",
-      "path": "~/Blocks"
+      "path": "~/Cumzone/Blocks"
+    },
+    {
+      "name": "Pubicblock",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pubicblock"
+    },
+    {
+      "name": "Pube",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pube"
     }
   ],
   "variable_elements": [],
@@ -797,21 +815,23 @@
       "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
       "item.biomes_oh_planty.cum_sword": "Cum Sword",
       "biome.biomes_oh_planty.dustbiome": "Dustbiome",
-      "item.biomes_oh_planty.holypeniswood_shovel": "Holypeniswood Shovel",
       "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
+      "item.biomes_oh_planty.holypeniswood_shovel": "Holypeniswood Shovel",
       "block.biomes_oh_planty.cumzone_grass": "Cumzone Grass",
       "biome.biomes_oh_planty.susus": "Susus",
-      "block.biomes_oh_planty.holy_peniswood_leaves": "HolyPeniswood Leaves",
       "item.biomes_oh_planty.cum_zone": "Cum Zone Portal Igniter",
+      "block.biomes_oh_planty.holy_peniswood_leaves": "HolyPeniswood Leaves",
       "block.biomes_oh_planty.holy_peniswood_planks": "HolyPeniswood Planks",
       "block.biomes_oh_planty.cumore_ore": "Cumore Ore",
+      "block.biomes_oh_planty.pubicblock": "Pubic block",
       "item.biomes_oh_planty.cumming_armor_chestplate": "Cumming Chestplate",
       "biome.biomes_oh_planty.death": "Death",
-      "block.biomes_oh_planty.holy_peniswood_button": "HolyPeniswood Button",
-      "biome.biomes_oh_planty.big_biome": "Big Biome",
       "block.biomes_oh_planty.blockofcum": "Blockofcum",
+      "biome.biomes_oh_planty.big_biome": "Big Biome",
+      "block.biomes_oh_planty.holy_peniswood_button": "HolyPeniswood Button",
       "block.biomes_oh_planty.penite_ore": "Penite Ore",
       "item.biomes_oh_planty.cumming_armor_helmet": "Cumming Helmet",
+      "item.biomes_oh_planty.pube": "Pube",
       "item.biomes_oh_planty.holypeniswood_hoe": "Holypeniswood Hoe",
       "biome.biomes_oh_planty.bedbiome": "Bedbiome",
       "item.biomes_oh_planty.holypeniswood_axe": "Holypeniswood Axe",
@@ -848,20 +868,25 @@
         "children": []
       },
       {
-        "name": "CumzoneBiomes",
-        "children": []
-      },
-      {
-        "name": "Cum",
-        "children": []
-      },
-      {
         "name": "Structures",
         "children": []
       },
       {
-        "name": "Blocks",
-        "children": []
+        "name": "Cumzone",
+        "children": [
+          {
+            "name": "CumzoneBiomes",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Cum",
+            "children": []
+          }
+        ]
       }
     ]
   },
