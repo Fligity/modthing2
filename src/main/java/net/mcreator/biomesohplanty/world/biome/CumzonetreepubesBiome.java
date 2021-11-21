@@ -36,8 +36,11 @@ import net.minecraft.util.math.MutableBoundingBox;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.state.BooleanProperty;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.client.audio.BackgroundMusicSelector;
 
+import net.mcreator.biomesohplanty.entity.CumeepsEntity;
+import net.mcreator.biomesohplanty.entity.CocknballsEntity;
 import net.mcreator.biomesohplanty.block.PubicblockBlock;
 import net.mcreator.biomesohplanty.block.HolyPeniswoodLogBlock;
 import net.mcreator.biomesohplanty.block.CumzoneStoneBlock;
@@ -97,6 +100,8 @@ public class CumzonetreepubesBiome extends BiomesOhPlantyModElements.ModElement 
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(CocknballsEntity.entity, 40, 1, 3));
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(CumeepsEntity.entity, 90, 1, 3));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(0.1f).scale(0.4f).temperature(0.5f)
 						.downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

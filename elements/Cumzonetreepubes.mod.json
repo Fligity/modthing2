@@ -103,6 +103,25 @@
       "Caves",
       "Ores"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Cocknballs"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 40,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Cumeeps"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 90,
+        "spawnType": "creature"
+      }
+    ]
   }
 }

@@ -41,7 +41,9 @@ import net.minecraft.client.audio.BackgroundMusicSelector;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.biomesohplanty.entity.CumeepsEntity;
 import net.mcreator.biomesohplanty.entity.CumBeastEntity;
+import net.mcreator.biomesohplanty.entity.CocknballsEntity;
 import net.mcreator.biomesohplanty.block.CumzoneStoneBlock;
 import net.mcreator.biomesohplanty.block.CumzoneGrassBlock;
 import net.mcreator.biomesohplanty.BiomesOhPlantyModElements;
@@ -105,6 +107,8 @@ public class Cumzonebiome1Biome extends BiomesOhPlantyModElements.ModElement {
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(CumBeastEntity.entity, 54, 4, 4));
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(CocknballsEntity.entity, 70, 1, 3));
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(CumeepsEntity.entity, 90, 4, 4));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(0.1f).scale(2f).temperature(0.5f)
 						.downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

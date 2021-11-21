@@ -110,6 +110,24 @@
         "maxGroup": 4,
         "weight": 54,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Cocknballs"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 70,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Cumeeps"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 90,
+        "spawnType": "creature"
       }
     ]
   }
