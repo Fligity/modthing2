@@ -119,7 +119,7 @@
         },
         "minGroup": 1,
         "maxGroup": 3,
-        "weight": 90,
+        "weight": 200,
         "spawnType": "creature"
       }
     ]

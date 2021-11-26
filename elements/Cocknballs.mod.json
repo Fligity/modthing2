@@ -112,12 +112,15 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 61,
-    "mobSpawningType": "monster",
+    "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Cumzonebiome1"
+      },
+      {
+        "value": "CUSTOM:Blackcumbiome"
       }
     ],
     "spawnInDungeons": false
