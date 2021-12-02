@@ -1,0 +1,42 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "biomes_oh_planty:cystum"
+    },
+    "1": {
+      "item": "biomes_oh_planty:cystum"
+    },
+    "2": {
+      "item": "biomes_oh_planty:cystum"
+    },
+    "3": {
+      "item": "biomes_oh_planty:cystum"
+    },
+    "4": {
+      "item": "biomes_oh_planty:cystum"
+    },
+    "5": {
+      "item": "biomes_oh_planty:cystum"
+    },
+    "6": {
+      "item": "biomes_oh_planty:cystum"
+    },
+    "7": {
+      "item": "biomes_oh_planty:cystum"
+    },
+    "8": {
+      "item": "biomes_oh_planty:cystum"
+    }
+  },
+  "result": {
+    "item": "biomes_oh_planty:cystum_block",
+    "count": 1
+  }
+}
