@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -49,6 +50,9 @@ public class BiomesOhPlantyModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "cumzone_mus1")));
 		sounds.put(new ResourceLocation("biomes_oh_planty", "calamity"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "calamity")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "no"), new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "no")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "bacon_song"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "bacon_song")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("biomes_oh_planty").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
@@ -64,6 +68,7 @@ public class BiomesOhPlantyModElements {
 		}
 		Collections.sort(elements);
 		elements.forEach(BiomesOhPlantyModElements.ModElement::initElements);
+		MinecraftForge.EVENT_BUS.register(new BiomesOhPlantyModVariables(this));
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {

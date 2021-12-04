@@ -7,9 +7,24 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "CUSTOM:CumzoneStone"
+      },
+      {
+        "value": "CUSTOM:CumzoneStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CumzoneStone"
+      },
+      {
+        "value": "CUSTOM:CumzoneStone"
+      },
+      {
         "value": ""
       },
       {
@@ -19,28 +34,13 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Cystum"
-      },
-      {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:Cystum"
-      },
-      {
-        "value": "CUSTOM:Cumore"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Cumore"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CummingArmor.boots"
+      "value": "CUSTOM:Cumzonestonebrick"
     },
-    "name": "cumming_armor_boots_recipe",
+    "name": "cumzonestonebrickrecipe",
     "namespace": "mod"
   }
 }
