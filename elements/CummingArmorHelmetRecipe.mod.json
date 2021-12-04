@@ -10,22 +10,22 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Blocks.STONE#4"
+        "value": "CUSTOM:Cumore"
       },
       {
-        "value": "Blocks.WOOL"
+        "value": "CUSTOM:Cystum"
       },
       {
-        "value": "Blocks.STONE#4"
+        "value": "CUSTOM:Cumore"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Blocks.DIAMOND_BLOCK"
+        "value": "CUSTOM:Cumore"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Cumore"
       },
       {
         "value": ""
