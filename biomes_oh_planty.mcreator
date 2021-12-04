@@ -1302,6 +1302,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cumstone_hoe_recipe"
+    },
+    {
+      "name": "Shitblock",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shitblock"
+    },
+    {
+      "name": "Shitstone",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shitstone"
+    },
+    {
+      "name": "Cumzonestonebrick",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumzonestonebrick"
     }
   ],
   "variable_elements": [],
@@ -1344,6 +1371,7 @@
       "block.biomes_oh_planty.cumzone_grass": "Cumzone Grass",
       "entity.biomes_oh_planty.cumeeps": "Cumeeps",
       "biome.biomes_oh_planty.grey_cum_biome": "False Overworld",
+      "block.biomes_oh_planty.shitblock": "Shitblock",
       "biome.biomes_oh_planty.susus": "Susus",
       "item.biomes_oh_planty.cum_zone": "Cum Zone Portal Igniter",
       "block.biomes_oh_planty.holy_peniswood_leaves": "HolyPeniswood Leaves",
@@ -1378,6 +1406,7 @@
       "block.biomes_oh_planty.holy_peniswood_wood": "HolyPeniswood Wood",
       "item.biomes_oh_planty.cumming_armor_leggings": "Cumming Leggings",
       "block.biomes_oh_planty.cumore_block": "Block of Cum",
+      "block.biomes_oh_planty.cumzonestonebrick": "Cumzonestonebrick",
       "block.biomes_oh_planty.penite_block": "Block of Penite",
       "block.biomes_oh_planty.holy_peniswood_slab": "HolyPeniswood Slab",
       "biome.biomes_oh_planty.cumzonetreepubes": "Cumzonetreepubes",
@@ -1389,6 +1418,7 @@
       "entity.biomes_oh_planty.spectercum": "Spectercum",
       "block.biomes_oh_planty.viagrore_block": "Block of Viagrore",
       "biome.biomes_oh_planty.e_extamehalls": "E Extamehalls",
+      "block.biomes_oh_planty.shitstone": "Shitstone",
       "biome.biomes_oh_planty.new_cum_biome": "New Cum Biome",
       "item.biomes_oh_planty.spermifier": "Spermifier",
       "item.biomes_oh_planty.cystum": "Cystum",
