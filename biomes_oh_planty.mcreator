@@ -1054,6 +1054,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cystum_ore_smelting"
+    },
+    {
+      "name": "Spectercum",
+      "type": "livingentity",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectercum"
     }
   ],
   "variable_elements": [],
@@ -1061,6 +1070,7 @@
   "language_map": {
     "en_us": {
       "item.biomes_oh_planty.cumeeps_spawn_egg": "Cumeeps Spawn Egg",
+      "item.biomes_oh_planty.spectercum_spawn_egg": "Spectercum Spawn Egg",
       "item.biomes_oh_planty.cum_hoe": "Cum Hoe",
       "item.biomes_oh_planty.sperm_spawn_egg": "Sperm Spawn Egg",
       "item.biomes_oh_planty.cumore": "Cumore",
@@ -1071,13 +1081,13 @@
       "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
       "item.biomes_oh_planty.cum_sword": "Cum Sword",
       "biome.biomes_oh_planty.dustbiome": "Dustbiome",
-      "item.biomes_oh_planty.holypeniswood_shovel": "Holypeniswood Shovel",
       "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
+      "item.biomes_oh_planty.holypeniswood_shovel": "Holypeniswood Shovel",
       "block.biomes_oh_planty.cumzone_grass": "Cumzone Grass",
       "entity.biomes_oh_planty.cumeeps": "Cumeeps",
       "biome.biomes_oh_planty.susus": "Susus",
-      "block.biomes_oh_planty.holy_peniswood_leaves": "HolyPeniswood Leaves",
       "item.biomes_oh_planty.cum_zone": "Cum Zone Portal Igniter",
+      "block.biomes_oh_planty.holy_peniswood_leaves": "HolyPeniswood Leaves",
       "block.biomes_oh_planty.holy_peniswood_planks": "HolyPeniswood Planks",
       "block.biomes_oh_planty.cumore_ore": "Cumore Ore",
       "block.biomes_oh_planty.pubicblock": "Pubic block",
@@ -1110,6 +1120,7 @@
       "item.biomes_oh_planty.cockynoodle": "Cockynoodle",
       "item.biomes_oh_planty.cocknballs_spawn_egg": "cocknballs Spawn Egg",
       "block.biomes_oh_planty.cystum_ore": "Cystum Ore",
+      "entity.biomes_oh_planty.spectercum": "Spectercum",
       "biome.biomes_oh_planty.e_extamehalls": "E Extamehalls",
       "biome.biomes_oh_planty.new_cum_biome": "New Cum Biome",
       "item.biomes_oh_planty.spermifier": "Spermifier",
