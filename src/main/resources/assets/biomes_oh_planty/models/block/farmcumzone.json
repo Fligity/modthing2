@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "biomes_oh_planty:blocks/cumzonestoneblock",
+    "top": "biomes_oh_planty:blocks/cropcumzone",
+    "side": "biomes_oh_planty:blocks/cumzonestoneblock",
+    "overlay": "biomes_oh_planty:blocks/cumzonestoneblock",
+    "particle": "biomes_oh_planty:blocks/cumzonestoneblock"
+  }
+}

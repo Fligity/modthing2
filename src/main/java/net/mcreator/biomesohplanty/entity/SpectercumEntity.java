@@ -59,7 +59,7 @@ import java.util.Random;
 public class SpectercumEntity extends BiomesOhPlantyModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
-			.size(10f, 10f)).build("spectercum").setRegistryName("spectercum");
+			.size(4f, 4f)).build("spectercum").setRegistryName("spectercum");
 	public SpectercumEntity(BiomesOhPlantyModElements instance) {
 		super(instance, 111);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SpectercumRenderer.ModelRegisterHandler());
@@ -158,7 +158,7 @@ public class SpectercumEntity extends BiomesOhPlantyModElements.ModElement {
 
 		@Override
 		public double getMountedYOffset() {
-			return super.getMountedYOffset() + 10;
+			return super.getMountedYOffset() + 4;
 		}
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {

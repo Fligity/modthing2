@@ -990,7 +990,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sperm",
-      "path": "~/Cumzone/CumzoneBiomes"
+      "path": "~/Cumzone/Cumzone mobs"
     },
     {
       "name": "Spermifier",
@@ -1062,7 +1062,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "spectercum"
+      "registry_name": "spectercum",
+      "path": "~/Cumzone/Cumzone mobs"
     },
     {
       "name": "Cumezonebrickstonerecipe",
@@ -1121,6 +1122,186 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "calamityjukebox"
+    },
+    {
+      "name": "Farmcumzone",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "farmcumzone"
+    },
+    {
+      "name": "Qorncob",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qorncob"
+    },
+    {
+      "name": "Qorn",
+      "type": "plant",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qorn"
+    },
+    {
+      "name": "Viagrore",
+      "type": "item",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viagrore"
+    },
+    {
+      "name": "ViagroreOre",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viagrore_ore"
+    },
+    {
+      "name": "ViagroreBlock",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viagrore_block"
+    },
+    {
+      "name": "ViagroreOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viagrore_ore_block_recipe"
+    },
+    {
+      "name": "ViagroreBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viagrore_block_ore_recipe"
+    },
+    {
+      "name": "ViagroreOreSmelting",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viagrore_ore_smelting"
+    },
+    {
+      "name": "Viagore",
+      "type": "fuel",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viagore"
+    },
+    {
+      "name": "CumstonePickaxe",
+      "type": "tool",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstone_pickaxe"
+    },
+    {
+      "name": "CumstoneAxe",
+      "type": "tool",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstone_axe"
+    },
+    {
+      "name": "CumstoneSword",
+      "type": "tool",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstone_sword"
+    },
+    {
+      "name": "CumstoneShovel",
+      "type": "tool",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstone_shovel"
+    },
+    {
+      "name": "CumstoneHoe",
+      "type": "tool",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstone_hoe"
+    },
+    {
+      "name": "CumstonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstone_pickaxe_recipe"
+    },
+    {
+      "name": "CumstoneAxeRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstone_axe_recipe"
+    },
+    {
+      "name": "CumstoneSwordRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstone_sword_recipe"
+    },
+    {
+      "name": "CumstoneShovelRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstone_shovel_recipe"
+    },
+    {
+      "name": "CumstoneHoeRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumstone_hoe_recipe"
     }
   ],
   "variable_elements": [],
@@ -1151,6 +1332,8 @@
       "item.biomes_oh_planty.cumore": "Cumore",
       "block.biomes_oh_planty.cums": "Cums",
       "biome.biomes_oh_planty.sea_men_biome": "Sea Men Biome",
+      "item.biomes_oh_planty.qorncob": "Qorncob",
+      "item.biomes_oh_planty.cumstone_axe": "Cumstone Axe",
       "entity.biomes_oh_planty.sperm": "Sperm",
       "biome.biomes_oh_planty.cumzonebiome_1": "CumZone Forest",
       "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
@@ -1172,12 +1355,18 @@
       "block.biomes_oh_planty.holy_peniswood_button": "HolyPeniswood Button",
       "biome.biomes_oh_planty.big_biome": "Big Biome",
       "block.biomes_oh_planty.blockofcum": "Blockofcum",
+      "item.biomes_oh_planty.viagrore": "Viagrore",
       "block.biomes_oh_planty.penite_ore": "Penite Ore",
       "item.biomes_oh_planty.pube": "Pube",
       "item.biomes_oh_planty.cumming_armor_helmet": "Cumming Helmet",
       "item.biomes_oh_planty.holypeniswood_hoe": "Holypeniswood Hoe",
+      "item.biomes_oh_planty.cumstone_hoe": "Cumstone Hoe",
+      "item.biomes_oh_planty.cumstone_pickaxe": "Cumstone Pickaxe",
       "biome.biomes_oh_planty.bedbiome": "Bedbiome",
+      "block.biomes_oh_planty.qorn": "Qorn",
+      "item.biomes_oh_planty.cumstone_shovel": "Cumstone Shovel",
       "item.biomes_oh_planty.holypeniswood_axe": "Holypeniswood Axe",
+      "block.biomes_oh_planty.viagrore_ore": "Viagrore Ore",
       "subtitles.calamity": "Calamity lol",
       "block.biomes_oh_planty.holy_peniswood_stairs": "HolyPeniswood Stairs",
       "item.biomes_oh_planty.penite": "Penite",
@@ -1198,6 +1387,7 @@
       "item.biomes_oh_planty.cocknballs_spawn_egg": "cocknballs Spawn Egg",
       "block.biomes_oh_planty.cystum_ore": "Cystum Ore",
       "entity.biomes_oh_planty.spectercum": "Spectercum",
+      "block.biomes_oh_planty.viagrore_block": "Block of Viagrore",
       "biome.biomes_oh_planty.e_extamehalls": "E Extamehalls",
       "biome.biomes_oh_planty.new_cum_biome": "New Cum Biome",
       "item.biomes_oh_planty.spermifier": "Spermifier",
@@ -1209,7 +1399,9 @@
       "item.biomes_oh_planty.cumming_armor_boots": "Cumming Boots",
       "biome.biomes_oh_planty.blackcumbiome": "Blackcumbiome",
       "block.biomes_oh_planty.cumzone_stone": "Cumzone Stone",
+      "block.biomes_oh_planty.farmcumzone": "Farmcumzone",
       "fluid.biomes_oh_planty.cums": "Cums",
+      "item.biomes_oh_planty.cumstone_sword": "Cumstone Sword",
       "block.biomes_oh_planty.cystum_block": "Block of Cystum",
       "biome.biomes_oh_planty.torchbiome": "Torchbiome",
       "subtitles.cumzone_mus1": "the end",

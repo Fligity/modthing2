@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "loottable",
   "definition": {
-    "type": "Entity",
+    "type": "Empty",
     "pools": [
       {
         "minrolls": 1,
@@ -16,7 +16,7 @@
             "item": {
               "value": "Blocks.WOOL#0"
             },
-            "weight": 100,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -39,7 +39,7 @@
             "item": {
               "value": "CUSTOM:Pube"
             },
-            "weight": 10,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -62,7 +62,7 @@
             "item": {
               "value": "Items.MUTTON"
             },
-            "weight": 90,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 2,
             "minEnchantmentLevel": 1,

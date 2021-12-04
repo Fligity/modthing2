@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=1": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=2": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=3": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=4": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=5": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=6": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=7": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=8": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=9": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=10": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=11": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=12": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=13": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=14": {
+      "model": "biomes_oh_planty:block/qorn"
+    },
+    "age=15": {
+      "model": "biomes_oh_planty:block/qorn"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "biomes_oh_planty:blocks/qorn",
+    "particle": "biomes_oh_planty:blocks/qorn"
+  }
+}

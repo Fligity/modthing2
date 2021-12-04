@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "biomes_oh_planty:blocks/crystumore",
-    "up": "biomes_oh_planty:blocks/crystumore",
-    "north": "biomes_oh_planty:blocks/crystumore",
-    "east": "biomes_oh_planty:blocks/crystumore",
-    "south": "biomes_oh_planty:blocks/crystumore",
-    "west": "biomes_oh_planty:blocks/crystumore",
-    "particle": "biomes_oh_planty:blocks/crystumore"
+    "down": "biomes_oh_planty:blocks/calamity",
+    "up": "biomes_oh_planty:blocks/calamity",
+    "north": "biomes_oh_planty:blocks/calamity",
+    "east": "biomes_oh_planty:blocks/calamity",
+    "south": "biomes_oh_planty:blocks/calamity",
+    "west": "biomes_oh_planty:blocks/calamity",
+    "particle": "biomes_oh_planty:blocks/calamity"
   }
 }

@@ -25,7 +25,7 @@ public class CumeepsRenderer {
 		@OnlyIn(Dist.CLIENT)
 		public void registerModels(ModelRegistryEvent event) {
 			RenderingRegistry.registerEntityRenderingHandler(CumeepsEntity.entity, renderManager -> {
-				return new MobRenderer(renderManager, new Modelcumstim(), 0.5f) {
+				return new MobRenderer(renderManager, new Modelcumstim(), 1f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
 						return new ResourceLocation("biomes_oh_planty:textures/cumstim.png");

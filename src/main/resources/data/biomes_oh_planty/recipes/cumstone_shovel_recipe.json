@@ -1,0 +1,24 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "biomes_oh_planty:cumzone_stone"
+    },
+    "1": {
+      "item": "biomes_oh_planty:pube"
+    },
+    "2": {
+      "item": "biomes_oh_planty:pube"
+    }
+  },
+  "result": {
+    "item": "biomes_oh_planty:cumstone_shovel",
+    "count": 1
+  }
+}

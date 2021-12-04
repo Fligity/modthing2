@@ -7,10 +7,10 @@
     "mobModelName": "Modelcumstim",
     "mobModelTexture": "cumstim.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 0.5,
+    "modelWidth": 1.0,
     "modelHeight": 0.2,
-    "modelShadowSize": 0.5,
-    "mountedYOffset": 0.9,
+    "modelShadowSize": 1.0,
+    "mountedYOffset": 1.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -65281,

@@ -48,7 +48,7 @@ import net.mcreator.biomesohplanty.BiomesOhPlantyModElements;
 public class CumeepsEntity extends BiomesOhPlantyModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
-			.size(0.5f, 0.2f)).build("cumeeps").setRegistryName("cumeeps");
+			.size(1f, 0.2f)).build("cumeeps").setRegistryName("cumeeps");
 	public CumeepsEntity(BiomesOhPlantyModElements instance) {
 		super(instance, 101);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CumeepsRenderer.ModelRegisterHandler());
@@ -121,7 +121,7 @@ public class CumeepsEntity extends BiomesOhPlantyModElements.ModElement {
 
 		@Override
 		public double getMountedYOffset() {
-			return super.getMountedYOffset() + 0.9;
+			return super.getMountedYOffset() + 1;
 		}
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {

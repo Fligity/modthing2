@@ -1,0 +1,30 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "biomes_oh_planty:cumzone_stone"
+    },
+    "1": {
+      "item": "biomes_oh_planty:cumzone_stone"
+    },
+    "2": {
+      "item": "biomes_oh_planty:cumzone_stone"
+    },
+    "4": {
+      "item": "biomes_oh_planty:pube"
+    },
+    "7": {
+      "item": "biomes_oh_planty:pube"
+    }
+  },
+  "result": {
+    "item": "biomes_oh_planty:cumstone_pickaxe",
+    "count": 1
+  }
+}

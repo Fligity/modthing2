@@ -1,0 +1,13 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biomes_oh_planty:viagrore_block"
+    }
+  ],
+  "result": {
+    "item": "biomes_oh_planty:viagrore",
+    "count": 9
+  }
+}
