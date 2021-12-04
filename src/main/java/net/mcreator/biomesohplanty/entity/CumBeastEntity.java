@@ -107,6 +107,7 @@ public class CumBeastEntity extends BiomesOhPlantyModElements.ModElement {
 			setNoAI(false);
 			setCustomName(new StringTextComponent("Cum beast"));
 			setCustomNameVisible(true);
+			enablePersistence();
 			this.moveController = new FlyingMovementController(this, 10, true);
 			this.navigator = new FlyingPathNavigator(this, this.world);
 		}
@@ -138,6 +139,11 @@ public class CumBeastEntity extends BiomesOhPlantyModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEAD;
+		}
+
+		@Override
+		public boolean canDespawn(double distanceToClosestPlayer) {
+			return false;
 		}
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
