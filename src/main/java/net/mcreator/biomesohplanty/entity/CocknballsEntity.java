@@ -21,6 +21,7 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
@@ -32,7 +33,6 @@ import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
-import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.BlockState;
@@ -89,7 +89,7 @@ public class CocknballsEntity extends BiomesOhPlantyModElements.ModElement {
 		}
 	}
 
-	public static class CustomEntity extends CreatureEntity {
+	public static class CustomEntity extends MonsterEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -117,7 +117,7 @@ public class CocknballsEntity extends BiomesOhPlantyModElements.ModElement {
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
-			return CreatureAttribute.UNDEFINED;
+			return CreatureAttribute.UNDEAD;
 		}
 
 		@Override
