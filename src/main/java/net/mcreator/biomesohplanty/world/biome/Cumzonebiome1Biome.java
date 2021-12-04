@@ -77,7 +77,7 @@ public class Cumzonebiome1Biome extends BiomesOhPlantyModElements.ModElement {
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.llama.swag")),
 								0.0111D))
 						.setMusic(new BackgroundMusicSelector((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-								.getValue(new ResourceLocation("block.honey_block.place")), 12000, 24000, true))
+								.getValue(new ResourceLocation("biomes_oh_planty:cumzone_mus1")), 12000, 24000, true))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(CumzoneGrassBlock.block.getDefaultState(),

@@ -36,7 +36,7 @@
       "value": "entity.llama.swag"
     },
     "music": {
-      "value": "block.honey_block.place"
+      "value": "CUSTOM:cumzone_mus1"
     },
     "moodSound": {
       "value": "entity.player.splash"
