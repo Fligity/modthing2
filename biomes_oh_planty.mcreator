@@ -1367,6 +1367,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "Cumzonetower",
+      "type": "structure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumzonetower",
+      "path": "~/Cumzone/structures"
+    },
+    {
+      "name": "Cumzonestonebrickrecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumzonestonebrickrecipe",
+      "path": "~/Cumzone/cumzone crafting"
+    },
+    {
+      "name": "Cumzonestonebrickstairsrecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumzonestonebrickstairsrecipe",
+      "path": "~/Cumzone/cumzone crafting"
     }
   ],
   "variable_elements": [],
@@ -1388,26 +1418,26 @@
       "subtitle": "Calamity lol"
     },
     {
-      "name": "bacon_song",
-      "files": [
-        "bacon"
-      ],
-      "category": "music",
-      "subtitle": "Bacon Bacon give me the Bacon"
-    },
-    {
       "name": "no",
       "files": [
         "table_2"
       ],
       "category": "master",
       "subtitle": "table breakage"
+    },
+    {
+      "name": "bacon_song",
+      "files": [
+        "bacon"
+      ],
+      "category": "music",
+      "subtitle": "Bacon Bacon give me the Bacon"
     }
   ],
   "language_map": {
     "en_us": {
-      "item.biomes_oh_planty.spectercum_spawn_egg": "Spectercum Spawn Egg",
       "item.biomes_oh_planty.cumeeps_spawn_egg": "Cumeeps Spawn Egg",
+      "item.biomes_oh_planty.spectercum_spawn_egg": "Spectercum Spawn Egg",
       "subtitles.bacon_song": "Bacon Bacon give me the Bacon",
       "item.biomes_oh_planty.cum_hoe": "Cum Hoe",
       "item.biomes_oh_planty.sperm_spawn_egg": "Sperm Spawn Egg",
@@ -1422,8 +1452,8 @@
       "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
       "item.biomes_oh_planty.cum_sword": "Cum Sword",
       "biome.biomes_oh_planty.dustbiome": "Dustbiome",
-      "item.biomes_oh_planty.holypeniswood_shovel": "Holypeniswood Shovel",
       "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
+      "item.biomes_oh_planty.holypeniswood_shovel": "Holypeniswood Shovel",
       "block.biomes_oh_planty.cumzone_grass": "Cumzone Grass",
       "entity.biomes_oh_planty.cumeeps": "Cumeeps",
       "biome.biomes_oh_planty.grey_cum_biome": "False Overworld",

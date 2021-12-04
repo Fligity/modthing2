@@ -3,13 +3,25 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "minecraft:wool"
+      "item": "biomes_oh_planty:cumore"
     },
     {
-      "item": "minecraft:string"
+      "item": "biomes_oh_planty:cystum"
     },
     {
-      "item": "minecraft:diamond_block"
+      "item": "biomes_oh_planty:cumore"
+    },
+    {
+      "item": "biomes_oh_planty:cumore"
+    },
+    {
+      "item": "biomes_oh_planty:cumore"
+    },
+    {
+      "item": "biomes_oh_planty:cumore"
+    },
+    {
+      "item": "biomes_oh_planty:cumore"
     }
   ],
   "result": {

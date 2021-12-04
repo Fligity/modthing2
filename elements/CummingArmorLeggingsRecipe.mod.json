@@ -10,31 +10,31 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Blocks.WOOL"
+        "value": "CUSTOM:Cumore"
       },
       {
-        "value": "Items.STRING"
+        "value": "CUSTOM:Cystum"
       },
       {
-        "value": "Blocks.DIAMOND_BLOCK"
+        "value": "CUSTOM:Cumore"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Cumore"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Cumore"
+      },
+      {
+        "value": "CUSTOM:Cumore"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Cumore"
       }
     ],
     "recipeReturnStack": {
