@@ -1196,15 +1196,7 @@
         "name": "Cumzone",
         "children": [
           {
-            "name": "CumzoneBiomes",
-            "children": []
-          },
-          {
-            "name": "Blocks",
-            "children": []
-          },
-          {
-            "name": "Cum",
+            "name": "cumzone crafting",
             "children": []
           },
           {
@@ -1212,7 +1204,7 @@
             "children": []
           },
           {
-            "name": "structures",
+            "name": "Cum",
             "children": []
           },
           {
@@ -1220,14 +1212,26 @@
             "children": []
           },
           {
+            "name": "structures",
+            "children": []
+          },
+          {
             "name": "Cumzone mobs",
             "children": []
           },
           {
-            "name": "cumzone crafting",
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "CumzoneBiomes",
             "children": []
           }
         ]
+      },
+      {
+        "name": "Other",
+        "children": []
       },
       {
         "name": "Overworld",
@@ -1241,10 +1245,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Other",
-        "children": []
       }
     ]
   },
