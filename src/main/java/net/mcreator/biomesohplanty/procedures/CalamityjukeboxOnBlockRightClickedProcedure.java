@@ -1,12 +1,17 @@
 package net.mcreator.biomesohplanty.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.server.ServerLifecycleHooks;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ChatType;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Util;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
 
 import net.mcreator.biomesohplanty.BiomesOhPlantyMod;
 
@@ -46,6 +51,11 @@ public class CalamityjukeboxOnBlockRightClickedProcedure {
 			((World) world).playSound(x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("biomes_oh_planty:calamity")),
 					SoundCategory.RECORDS, (float) 1, (float) 1, false);
+		}
+		if (!world.isRemote()) {
+			MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
+			if (mcserv != null)
+				mcserv.getPlayerList().func_232641_a_(new StringTextComponent("calamity mod"), ChatType.SYSTEM, Util.DUMMY_UUID);
 		}
 	}
 }

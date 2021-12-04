@@ -1351,16 +1351,6 @@
       "path": "~/Cumzone/Blocks"
     },
     {
-      "name": "Cumzonetower",
-      "type": "structure",
-      "sortid": 139,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cumzonetower",
-      "path": "~/Cumzone/structures"
-    },
-    {
       "name": "Cumzonestonebrickrecipe",
       "type": "recipe",
       "sortid": 140,
@@ -1379,9 +1369,80 @@
       "ids": {},
       "registry_name": "cumzonestonebrickstairsrecipe",
       "path": "~/Cumzone/cumzone crafting"
+    },
+    {
+      "name": "Gun",
+      "type": "rangeditem",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gun"
+    },
+    {
+      "name": "Cave",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MyPet",
+      "type": "livingentity",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "my_pet"
+    },
+    {
+      "name": "GunBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gun_bullet_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "test",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "cumzone_mus1",
@@ -1398,14 +1459,32 @@
       ],
       "category": "master",
       "subtitle": "Calamity lol"
+    },
+    {
+      "name": "no",
+      "files": [
+        "table_2"
+      ],
+      "category": "master",
+      "subtitle": "table breakage"
+    },
+    {
+      "name": "bacon_song",
+      "files": [
+        "bacon"
+      ],
+      "category": "music",
+      "subtitle": "Bacon Bacon give me the Bacon"
     }
   ],
   "language_map": {
     "en_us": {
       "item.biomes_oh_planty.cumeeps_spawn_egg": "Cumeeps Spawn Egg",
       "item.biomes_oh_planty.spectercum_spawn_egg": "Spectercum Spawn Egg",
+      "subtitles.bacon_song": "Bacon Bacon give me the Bacon",
       "item.biomes_oh_planty.cum_hoe": "Cum Hoe",
       "item.biomes_oh_planty.sperm_spawn_egg": "Sperm Spawn Egg",
+      "subtitles.no": "table breakage",
       "item.biomes_oh_planty.qorncob": "Qorncob",
       "biome.biomes_oh_planty.sea_men_biome": "Sea Men Biome",
       "block.biomes_oh_planty.cums": "Cums",
@@ -1454,6 +1533,7 @@
       "item.biomes_oh_planty.holypeniswood_sword": "Holypeniswood Sword",
       "entity.biomes_oh_planty.cum_beast": "Cum Beast",
       "item.biomes_oh_planty.cum_axe": "Cum Axe",
+      "item.biomes_oh_planty.gun": "Gun",
       "block.biomes_oh_planty.holy_peniswood_wood": "HolyPeniswood Wood",
       "item.biomes_oh_planty.cumming_armor_leggings": "Cumming Leggings",
       "block.biomes_oh_planty.cumore_block": "Block of Cum",
@@ -1463,6 +1543,7 @@
       "biome.biomes_oh_planty.cumzonetreepubes": "Cumzonetreepubes",
       "item.biomes_oh_planty.cum_shovel": "Cum Shovel",
       "item.biomes_oh_planty.holypeniswood_pickaxe": "Holypeniswood Pickaxe",
+      "subtitles.uh_oh": "oh no",
       "item.biomes_oh_planty.cockynoodle": "Cockynoodle",
       "item.biomes_oh_planty.cocknballs_spawn_egg": "cocknballs Spawn Egg",
       "block.biomes_oh_planty.cystum_ore": "Cystum Ore",

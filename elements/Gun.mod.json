@@ -1,0 +1,45 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "gun",
+    "customModelName": "Normal",
+    "name": "Gun",
+    "specialInfo": [
+      "Is Gun"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Blocks.FLOWER_POT"
+    },
+    "shootConstantly": false,
+    "usageCount": 2000,
+    "actionSound": {
+      "value": "block.bamboo.break"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 4.0,
+    "bulletDamage": 15.0,
+    "bulletKnockback": 10,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.FLOWER_POT"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "GunBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "GunBulletHitsPlayer"
+    }
+  }
+}
