@@ -1,0 +1,22 @@
+{
+  "group": "biomes_oh_planty",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biomes_oh_planty:cumzone_stone"
+    },
+    {
+      "item": "biomes_oh_planty:cumzone_stone"
+    },
+    {
+      "item": "biomes_oh_planty:cumzone_stone"
+    },
+    {
+      "item": "biomes_oh_planty:cumzone_stone"
+    }
+  ],
+  "result": {
+    "item": "biomes_oh_planty:cumezonebrickstone",
+    "count": 4
+  }
+}

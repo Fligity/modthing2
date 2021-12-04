@@ -30,13 +30,13 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "entity.fox.screech"
+      "value": "CUSTOM:cumzone_mus1"
     },
     "additionsSound": {
       "value": "ui.toast.in"
     },
     "music": {
-      "value": "block.blastfurnace.fire_crackle"
+      "value": ""
     },
     "moodSound": {
       "value": ""

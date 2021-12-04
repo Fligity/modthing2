@@ -37,7 +37,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.entity.EntityClassification;
-import net.minecraft.client.audio.BackgroundMusicSelector;
 
 import net.mcreator.biomesohplanty.entity.CumeepsEntity;
 import net.mcreator.biomesohplanty.entity.CocknballsEntity;
@@ -64,14 +63,10 @@ public class CumzonetreepubesBiome extends BiomesOhPlantyModElements.ModElement 
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-857880).setWaterColor(-11645362).setWaterFogColor(-14342875)
 						.withSkyColor(-857880).withFoliageColor(-1).withGrassColor(-137755)
-						.setAmbientSound(
-								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.fox.screech")))
-						.setAdditionsSound(
-								new SoundAdditionsAmbience(
-										(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.toast.in")),
-										0.0111D))
-						.setMusic(new BackgroundMusicSelector((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-								.getValue(new ResourceLocation("block.blastfurnace.fire_crackle")), 12000, 24000, true))
+						.setAmbientSound((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+								.getValue(new ResourceLocation("biomes_oh_planty:cumzone_mus1")))
+						.setAdditionsSound(new SoundAdditionsAmbience(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.toast.in")), 0.0111D))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(CumzoneGrassBlock.block.getDefaultState(),
