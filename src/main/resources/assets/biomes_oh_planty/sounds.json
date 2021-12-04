@@ -1,1 +1,12 @@
-{}
+{
+  "cumzone_mus1": {
+    "category": "music",
+    "subtitle": "subtitles.cumzone_mus1",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:cum-zone-mp3cut",
+        "stream": true
+      }
+    ]
+  }
+}

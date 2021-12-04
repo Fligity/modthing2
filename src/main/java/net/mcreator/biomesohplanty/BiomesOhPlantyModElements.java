@@ -45,6 +45,8 @@ public class BiomesOhPlantyModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public BiomesOhPlantyModElements() {
+		sounds.put(new ResourceLocation("biomes_oh_planty", "cumzone_mus1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "cumzone_mus1")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("biomes_oh_planty").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

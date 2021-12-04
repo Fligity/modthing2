@@ -1066,11 +1066,20 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "cumzone_mus1",
+      "files": [
+        "cum-zone-mp3cut"
+      ],
+      "category": "music",
+      "subtitle": "the end"
+    }
+  ],
   "language_map": {
     "en_us": {
-      "item.biomes_oh_planty.spectercum_spawn_egg": "Spectercum Spawn Egg",
       "item.biomes_oh_planty.cumeeps_spawn_egg": "Cumeeps Spawn Egg",
+      "item.biomes_oh_planty.spectercum_spawn_egg": "Spectercum Spawn Egg",
       "item.biomes_oh_planty.cum_hoe": "Cum Hoe",
       "item.biomes_oh_planty.sperm_spawn_egg": "Sperm Spawn Egg",
       "item.biomes_oh_planty.cumore": "Cumore",
@@ -1081,8 +1090,8 @@
       "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
       "item.biomes_oh_planty.cum_sword": "Cum Sword",
       "biome.biomes_oh_planty.dustbiome": "Dustbiome",
-      "item.biomes_oh_planty.holypeniswood_shovel": "Holypeniswood Shovel",
       "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
+      "item.biomes_oh_planty.holypeniswood_shovel": "Holypeniswood Shovel",
       "block.biomes_oh_planty.cumzone_grass": "Cumzone Grass",
       "entity.biomes_oh_planty.cumeeps": "Cumeeps",
       "biome.biomes_oh_planty.susus": "Susus",
@@ -1134,6 +1143,7 @@
       "fluid.biomes_oh_planty.cums": "Cums",
       "block.biomes_oh_planty.cystum_block": "Block of Cystum",
       "biome.biomes_oh_planty.torchbiome": "Torchbiome",
+      "subtitles.cumzone_mus1": "the end",
       "block.biomes_oh_planty.holy_peniswood_fence_gate": "HolyPeniswood Fence Gate"
     }
   },
