@@ -1,29 +1,40 @@
 package net.mcreator.biomesohplanty.procedures;
 
-public class CaveProcedure {
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.biomesohplanty.BiomesOhPlantyModVariables;
+import net.mcreator.biomesohplanty.BiomesOhPlantyMod;
+
+import java.util.Map;
+import java.util.HashMap;
+
+public class CaveProcedure {
 	@Mod.EventBusSubscriber
 	private static class GlobalTrigger {
 		@SubscribeEvent
-		public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
-			if (event.phase == TickEvent.Phase.END) {
-				Entity entity = event.player;
-				World world = entity.world;
-				double i = entity.getPosX();
-				double j = entity.getPosY();
-				double k = entity.getPosZ();
-				Map<String, Object> dependencies = new HashMap<>();
-				dependencies.put("x", i);
-				dependencies.put("y", j);
-				dependencies.put("z", k);
-				dependencies.put("world", world);
-				dependencies.put("entity", entity);
-				dependencies.put("event", event);
-				executeProcedure(dependencies);
-			}
+		public static void onPlayerRespawned(PlayerEvent.PlayerRespawnEvent event) {
+			Entity entity = event.getPlayer();
+			Map<String, Object> dependencies = new HashMap<>();
+			dependencies.put("x", entity.getPosX());
+			dependencies.put("y", entity.getPosY());
+			dependencies.put("z", entity.getPosZ());
+			dependencies.put("world", entity.world);
+			dependencies.put("entity", entity);
+			dependencies.put("endconquered", event.isEndConquered());
+			dependencies.put("event", event);
+			executeProcedure(dependencies);
 		}
 	}
-
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
@@ -45,16 +56,15 @@ public class CaveProcedure {
 				BiomesOhPlantyMod.LOGGER.warn("Failed to load dependency world for procedure Cave!");
 			return;
 		}
-
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		double test = 0;
-		test = (double) Math.random();
-		System.out.println(test);
-		if ((test < 0.0001)) {
+		BiomesOhPlantyModVariables.WorldVariables.get(world).test = (double) Math.random();
+		BiomesOhPlantyModVariables.WorldVariables.get(world).syncData(world);
+		System.out.println(BiomesOhPlantyModVariables.WorldVariables.get(world).test);
+		if ((BiomesOhPlantyModVariables.WorldVariables.get(world).test < 0.1)) {
 			if (world instanceof World && !world.isRemote()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("biomes_oh_planty:no")),
@@ -67,5 +77,4 @@ public class CaveProcedure {
 			System.out.println("HOLY SHIT BRO");
 		}
 	}
-
 }
