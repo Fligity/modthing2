@@ -7,10 +7,10 @@
     "mobModelName": "ModelSpectercum",
     "mobModelTexture": "spectercum.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 64.0,
-    "modelHeight": 64.0,
+    "modelWidth": 10.0,
+    "modelHeight": 10.0,
     "modelShadowSize": 0.5,
-    "mountedYOffset": 64.0,
+    "mountedYOffset": 10.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -16776961,

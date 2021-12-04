@@ -47,8 +47,8 @@ import net.mcreator.biomesohplanty.BiomesOhPlantyModElements;
 @BiomesOhPlantyModElements.ModElement.Tag
 public class CumeepsEntity extends BiomesOhPlantyModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(1.8f, 1.8f)).build("cumeeps").setRegistryName("cumeeps");
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
+			.size(0.5f, 0.2f)).build("cumeeps").setRegistryName("cumeeps");
 	public CumeepsEntity(BiomesOhPlantyModElements instance) {
 		super(instance, 101);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CumeepsRenderer.ModelRegisterHandler());

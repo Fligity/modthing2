@@ -8,5 +8,15 @@
         "stream": true
       }
     ]
+  },
+  "calamity": {
+    "category": "master",
+    "subtitle": "subtitles.calamity",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:export_ofoct.com",
+        "stream": false
+      }
+    ]
   }
 }
