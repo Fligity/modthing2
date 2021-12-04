@@ -127,7 +127,7 @@ public class SpectercumEntity extends BiomesOhPlantyModElements.ModElement {
 		protected void registerGoals() {
 			super.registerGoals();
 			this.goalSelector.addGoal(1, new TemptGoal(this, 1, Ingredient.fromItems(CystumItem.block), false));
-			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 2, false));
+			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 2, true));
 			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 0.8, 20) {
 				@Override
 				protected Vector3d getPosition() {

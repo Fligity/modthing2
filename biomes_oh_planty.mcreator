@@ -1073,6 +1073,16 @@
       "ids": {},
       "registry_name": "cumezonebrickstonerecipe",
       "path": "~/Cumzone/cumzone crafting"
+    },
+    {
+      "name": "GreyCumBiome",
+      "type": "biome",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grey_cum_biome",
+      "path": "~/Cumzone/CumzoneBiomes"
     }
   ],
   "variable_elements": [],
@@ -1104,6 +1114,7 @@
       "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
       "block.biomes_oh_planty.cumzone_grass": "Cumzone Grass",
       "entity.biomes_oh_planty.cumeeps": "Cumeeps",
+      "biome.biomes_oh_planty.grey_cum_biome": "False Overworld",
       "biome.biomes_oh_planty.susus": "Susus",
       "item.biomes_oh_planty.cum_zone": "Cum Zone Portal Igniter",
       "block.biomes_oh_planty.holy_peniswood_leaves": "HolyPeniswood Leaves",

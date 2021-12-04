@@ -11,6 +11,9 @@
       },
       {
         "value": "CUSTOM:Blackcumbiome"
+      },
+      {
+        "value": "CUSTOM:GreyCumBiome"
       }
     ],
     "worldGenType": "Normal world gen",
