@@ -1456,14 +1456,6 @@
       ],
       "category": "master",
       "subtitle": "table breakage"
-    },
-    {
-      "name": "bacon_song",
-      "files": [
-        "bacon"
-      ],
-      "category": "music",
-      "subtitle": "Bacon Bacon give me the Bacon"
     }
   ],
   "language_map": {
@@ -1497,6 +1489,8 @@
       "block.biomes_oh_planty.cumore_ore": "Cumore Ore",
       "block.biomes_oh_planty.pubicblock": "Pubic block",
       "item.biomes_oh_planty.cumming_armor_chestplate": "Cumming Chestplate",
+      "item.biomes_oh_planty.my_pet_spawn_egg": "My Pet Spawn Egg",
+      "entity.biomes_oh_planty.my_pet": "My Pet",
       "biome.biomes_oh_planty.death": "Death",
       "block.biomes_oh_planty.holy_peniswood_button": "HolyPeniswood Button",
       "biome.biomes_oh_planty.big_biome": "Big Biome",
