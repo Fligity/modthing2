@@ -49,6 +49,16 @@
       }
     ]
   },
+  "wait": {
+    "category": "ambient",
+    "subtitle": "subtitles.wait",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:wait_i_know_you",
+        "stream": false
+      }
+    ]
+  },
   "pkfire": {
     "category": "hostile",
     "subtitle": "subtitles.pkfire",
@@ -56,16 +66,6 @@
       {
         "name": "biomes_oh_planty:pk-fire",
         "stream": false
-      }
-    ]
-  },
-  "battlefield-cringe-voicelines": {
-    "category": "record",
-    "subtitle": "subtitles.battlefield-cringe-voicelines",
-    "sounds": [
-      {
-        "name": "biomes_oh_planty:when_you_hear_the_cringe_battlefield_2042_end_of_round_voice_lines",
-        "stream": true
       }
     ]
   },
@@ -89,23 +89,13 @@
       }
     ]
   },
-  "whatthedogdoin": {
-    "category": "ambient",
-    "subtitle": "subtitles.whatthedogdoin",
+  "battlefield-cringe-voicelines": {
+    "category": "record",
+    "subtitle": "subtitles.battlefield-cringe-voicelines",
     "sounds": [
       {
-        "name": "biomes_oh_planty:what_the_dog_doing_vine",
-        "stream": false
-      }
-    ]
-  },
-  "wait": {
-    "category": "ambient",
-    "subtitle": "subtitles.wait",
-    "sounds": [
-      {
-        "name": "biomes_oh_planty:wait_i_know_you",
-        "stream": false
+        "name": "biomes_oh_planty:when_you_hear_the_cringe_battlefield_2042_end_of_round_voice_lines",
+        "stream": true
       }
     ]
   },
@@ -115,6 +105,16 @@
     "sounds": [
       {
         "name": "biomes_oh_planty:snapcube_-_im_gonna_kill_you_and_then_kill_you_again",
+        "stream": false
+      }
+    ]
+  },
+  "whatthedogdoin": {
+    "category": "ambient",
+    "subtitle": "subtitles.whatthedogdoin",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:what_the_dog_doing_vine",
         "stream": false
       }
     ]

@@ -55,20 +55,20 @@ public class BiomesOhPlantyModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "bacon")));
 		sounds.put(new ResourceLocation("biomes_oh_planty", "bacon2"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "bacon2")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "wait"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "wait")));
 		sounds.put(new ResourceLocation("biomes_oh_planty", "pkfire"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "pkfire")));
-		sounds.put(new ResourceLocation("biomes_oh_planty", "battlefield-cringe-voicelines"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "battlefield-cringe-voicelines")));
 		sounds.put(new ResourceLocation("biomes_oh_planty", "yharon_p2"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "yharon_p2")));
 		sounds.put(new ResourceLocation("biomes_oh_planty", "zawarudo"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "zawarudo")));
-		sounds.put(new ResourceLocation("biomes_oh_planty", "whatthedogdoin"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "whatthedogdoin")));
-		sounds.put(new ResourceLocation("biomes_oh_planty", "wait"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "wait")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "battlefield-cringe-voicelines"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "battlefield-cringe-voicelines")));
 		sounds.put(new ResourceLocation("biomes_oh_planty", "snapcoob"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "snapcoob")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "whatthedogdoin"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "whatthedogdoin")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("biomes_oh_planty").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -1442,6 +1442,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cumzoneportal"
+    },
+    {
+      "name": "Joebiden",
+      "type": "livingentity",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "joebiden"
     }
   ],
   "variable_elements": [
@@ -1494,20 +1503,20 @@
       "subtitle": "bacon bacon give me the bacon cuz i want the bacon now give me theb acon"
     },
     {
+      "name": "wait",
+      "files": [
+        "wait_i_know_you"
+      ],
+      "category": "ambient",
+      "subtitle": "I know you...."
+    },
+    {
       "name": "pkfire",
       "files": [
         "pk-fire"
       ],
       "category": "hostile",
       "subtitle": "PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE PK FIRE "
-    },
-    {
-      "name": "battlefield-cringe-voicelines",
-      "files": [
-        "when_you_hear_the_cringe_battlefield_2042_end_of_round_voice_lines"
-      ],
-      "category": "record",
-      "subtitle": "Well, well, well, that was fun!"
     },
     {
       "name": "yharon_p2",
@@ -1526,20 +1535,12 @@
       "subtitle": "What the dog doin?"
     },
     {
-      "name": "whatthedogdoin",
+      "name": "battlefield-cringe-voicelines",
       "files": [
-        "what_the_dog_doing_vine"
+        "when_you_hear_the_cringe_battlefield_2042_end_of_round_voice_lines"
       ],
-      "category": "ambient",
-      "subtitle": "What the dog doin?"
-    },
-    {
-      "name": "wait",
-      "files": [
-        "wait_i_know_you"
-      ],
-      "category": "ambient",
-      "subtitle": "I know you...."
+      "category": "record",
+      "subtitle": "Well, well, well, that was fun!"
     },
     {
       "name": "snapcoob",
@@ -1548,6 +1549,14 @@
       ],
       "category": "neutral",
       "subtitle": "eg"
+    },
+    {
+      "name": "whatthedogdoin",
+      "files": [
+        "what_the_dog_doing_vine"
+      ],
+      "category": "ambient",
+      "subtitle": "What the dog doin?"
     }
   ],
   "language_map": {
