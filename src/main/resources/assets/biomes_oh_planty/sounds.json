@@ -48,5 +48,205 @@
         "stream": false
       }
     ]
+  },
+  "wait": {
+    "category": "ambient",
+    "subtitle": "subtitles.wait",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:wait_i_know_you",
+        "stream": false
+      }
+    ]
+  },
+  "iamnotoverconfident": {
+    "category": "hostile",
+    "subtitle": "subtitles.iamnotoverconfident",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:notoverconfident",
+        "stream": false
+      }
+    ]
+  },
+  "pkfire": {
+    "category": "hostile",
+    "subtitle": "subtitles.pkfire",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:pk-fire",
+        "stream": false
+      }
+    ]
+  },
+  "ratialslur": {
+    "category": "ambient",
+    "subtitle": "subtitles.ratialslur",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:ok_lets_go____nig-",
+        "stream": false
+      }
+    ]
+  },
+  "yharon_p2": {
+    "category": "record",
+    "subtitle": "subtitles.yharon_p2",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:terraria_calamity_mod_music_-_roar_of_the_jungle_dragon_-_theme_of_jungle_dragon_yharon_phase_2",
+        "stream": true
+      }
+    ]
+  },
+  "emergency": {
+    "category": "ambient",
+    "subtitle": "subtitles.emergency",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:911_whats_your_emergency__911_dispatcher_call_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "impasta": {
+    "category": "ambient",
+    "subtitle": "subtitles.impasta",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:among_us_imposter_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "thatvideo": {
+    "category": "ambient",
+    "subtitle": "subtitles.thatvideo",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:dog_of_camel",
+        "stream": false
+      }
+    ]
+  },
+  "zawarudo": {
+    "category": "ambient",
+    "subtitle": "subtitles.zawarudo",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:za_warudo",
+        "stream": false
+      }
+    ]
+  },
+  "whywhywhy": {
+    "category": "ambient",
+    "subtitle": "subtitles.whywhywhy",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:jojo_part_6_stone_ocean_-_pucci_theme_official",
+        "stream": false
+      }
+    ]
+  },
+  "failure": {
+    "category": "ambient",
+    "subtitle": "subtitles.failure",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:british_national_anthem_fail_in_libya",
+        "stream": false
+      }
+    ]
+  },
+  "battlefield-cringe-voicelines": {
+    "category": "record",
+    "subtitle": "subtitles.battlefield-cringe-voicelines",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:when_you_hear_the_cringe_battlefield_2042_end_of_round_voice_lines",
+        "stream": true
+      }
+    ]
+  },
+  "snapcoob": {
+    "category": "neutral",
+    "subtitle": "subtitles.snapcoob",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:snapcube_-_im_gonna_kill_you_and_then_kill_you_again",
+        "stream": false
+      }
+    ]
+  },
+  "menacing": {
+    "category": "ambient",
+    "subtitle": "subtitles.menacing",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:giornos_theme_but_its_the_menacing_part__green_screen_",
+        "stream": false
+      }
+    ]
+  },
+  "whatthedogdoin": {
+    "category": "ambient",
+    "subtitle": "subtitles.whatthedogdoin",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:what_the_dog_doing_vine",
+        "stream": false
+      }
+    ]
+  },
+  "theeggannouncement": {
+    "category": "ambient",
+    "subtitle": "subtitles.theeggannouncement",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:dr_eggman_has_an_announcement_to_make",
+        "stream": false
+      }
+    ]
+  },
+  "cros": {
+    "category": "ambient",
+    "subtitle": "subtitles.cros",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:are_you_gonna_finish_that_croissant_quality_funny_meme",
+        "stream": false
+      }
+    ]
+  },
+  "boopbooboo": {
+    "category": "ambient",
+    "subtitle": "subtitles.boopbooboo",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:skype_-_skype_ringtone_hq_sound",
+        "stream": false
+      }
+    ]
+  },
+  "niconiconii": {
+    "category": "ambient",
+    "subtitle": "subtitles.niconiconii",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:nico_nico_nii_car",
+        "stream": false
+      }
+    ]
+  },
+  "blueshell": {
+    "category": "ambient",
+    "subtitle": "subtitles.blueshell",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:mario_kart_wii_-_blue_shell_warning_sound",
+        "stream": false
+      }
+    ]
   }
 }

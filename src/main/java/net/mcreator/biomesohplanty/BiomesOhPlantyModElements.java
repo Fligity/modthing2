@@ -55,6 +55,46 @@ public class BiomesOhPlantyModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "bacon")));
 		sounds.put(new ResourceLocation("biomes_oh_planty", "bacon2"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "bacon2")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "wait"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "wait")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "iamnotoverconfident"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "iamnotoverconfident")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "pkfire"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "pkfire")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "ratialslur"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "ratialslur")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "yharon_p2"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "yharon_p2")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "emergency"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "emergency")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "impasta"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "impasta")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "thatvideo"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "thatvideo")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "zawarudo"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "zawarudo")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "whywhywhy"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "whywhywhy")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "failure"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "failure")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "battlefield-cringe-voicelines"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "battlefield-cringe-voicelines")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "snapcoob"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "snapcoob")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "menacing"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "menacing")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "whatthedogdoin"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "whatthedogdoin")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "theeggannouncement"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "theeggannouncement")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "cros"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "cros")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "boopbooboo"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "boopbooboo")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "niconiconii"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "niconiconii")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "blueshell"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "blueshell")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("biomes_oh_planty").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

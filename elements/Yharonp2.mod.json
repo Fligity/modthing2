@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "yharon",
+    "name": "Yharon Phase 2",
+    "description": "Literally, why?",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:yharon_p2"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

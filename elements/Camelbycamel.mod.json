@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "camelbycamel",
+    "name": "Camel by Camel",
+    "description": "The cat is dancing",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:thatvideo"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
