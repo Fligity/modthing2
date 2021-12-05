@@ -1451,6 +1451,93 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "joebiden"
+    },
+    {
+      "name": "Yharonp2",
+      "type": "musicdisc",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yharonp_2"
+    },
+    {
+      "name": "Camelbycamel",
+      "type": "musicdisc",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "camelbycamel",
+      "path": "~/Records"
+    },
+    {
+      "name": "Ambient",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ambient",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Amb",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amb",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -1459,6 +1546,18 @@
       "type": "number",
       "scope": "world",
       "value": "0.0"
+    },
+    {
+      "name": "AmbientS",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Ambient",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -1663,16 +1762,16 @@
       "item.biomes_oh_planty.cumore": "Cumore",
       "item.biomes_oh_planty.qorncob": "Qorncob",
       "item.biomes_oh_planty.cumstone_axe": "Cumstone Axe",
-      "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
       "subtitles.whatthedogdoin": "What the dog doin?",
+      "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
       "item.biomes_oh_planty.joebiden_spawn_egg": "Joebiden Spawn Egg",
       "subtitles.theeggannouncement": "Shadow the Hedgehog",
-      "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
       "subtitles.snapcoob": "eg",
+      "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
       "subtitles.thatvideo": "Dancing cat vido",
       "biome.biomes_oh_planty.susus": "Susus",
-      "item.biomes_oh_planty.cum_zone": "Cum Zone Portal Igniter",
       "subtitles.battlefield-cringe-voicelines": "Well, well, well, that was fun!",
+      "item.biomes_oh_planty.cum_zone": "Cum Zone Portal Igniter",
       "block.biomes_oh_planty.holy_peniswood_planks": "HolyPeniswood Planks",
       "block.biomes_oh_planty.pubicblock": "Pubic block",
       "subtitles.ratialslur": "RATIAL SLUR??????????????????????????????",
@@ -1688,8 +1787,8 @@
       "block.biomes_oh_planty.qorn": "Qorn",
       "block.biomes_oh_planty.viagrore_ore": "Viagrore Ore",
       "subtitles.calamity": "Calamity lol",
-      "block.biomes_oh_planty.holy_peniswood_stairs": "HolyPeniswood Stairs",
       "item.biomes_oh_planty.penite": "Penite",
+      "block.biomes_oh_planty.holy_peniswood_stairs": "HolyPeniswood Stairs",
       "item.biomes_oh_planty.cums_bucket": "Cum in a Bucket",
       "entity.biomes_oh_planty.cocknballs": "cocknballs",
       "subtitles.bacon": "bacon, bacon, givem e the bacon cuz i want the bacon now give me the bacon",
@@ -1701,10 +1800,12 @@
       "block.biomes_oh_planty.penite_block": "Block of Penite",
       "item.biomes_oh_planty.holypeniswood_pickaxe": "Holypeniswood Pickaxe",
       "subtitles.uh_oh": "oh no",
+      "item.biomes_oh_planty.yharonp_2": "Yharon Phase 2",
       "block.biomes_oh_planty.cystum_ore": "Cystum Ore",
       "block.biomes_oh_planty.viagrore_block": "Block of Viagrore",
       "block.biomes_oh_planty.shitstone": "Shitstone",
       "biome.biomes_oh_planty.new_cum_biome": "New Cum Biome",
+      "item.biomes_oh_planty.camelbycamel.desc": "The cat is dancing",
       "item.biomes_oh_planty.spermifier": "Spermifier",
       "item.biomes_oh_planty.cystum": "Cystum",
       "item.biomes_oh_planty.cum_beast_spawn_egg": "Cum Beast Spawn Egg",
@@ -1717,6 +1818,7 @@
       "subtitles.bacon2": "bacon bacon give me the bacon cuz i want the bacon now give me theb acon",
       "block.biomes_oh_planty.cystum_block": "Block of Cystum",
       "subtitles.impasta": "bbbrrrrRRRRRTKtktktktk",
+      "item.biomes_oh_planty.yharonp_2.desc": "Literally, why?",
       "block.biomes_oh_planty.calamityjukebox": "Calamityjukebox",
       "item.biomes_oh_planty.spectercum_spawn_egg": "Spectercum Spawn Egg",
       "subtitles.bacon_song": "Bacon Bacon give me the Bacon",
@@ -1736,6 +1838,7 @@
       "block.biomes_oh_planty.shitblock": "Shitblock",
       "block.biomes_oh_planty.holy_peniswood_leaves": "HolyPeniswood Leaves",
       "block.biomes_oh_planty.cumore_ore": "Cumore Ore",
+      "item.biomes_oh_planty.camelbycamel": "Camel by Camel",
       "item.biomes_oh_planty.cumming_armor_chestplate": "Cumming Chestplate",
       "item.biomes_oh_planty.my_pet_spawn_egg": "My Pet Spawn Egg",
       "biome.biomes_oh_planty.death": "Death",
@@ -1830,6 +1933,14 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Records",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
       }
     ]
   },
