@@ -1,7 +1,21 @@
 package net.mcreator.biomesohplanty.procedures;
 
-public class AmbProcedure {
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.biomesohplanty.BiomesOhPlantyModVariables;
+import net.mcreator.biomesohplanty.BiomesOhPlantyMod;
+
+import java.util.Map;
+import java.util.HashMap;
+
+public class AmbProcedure {
 	@Mod.EventBusSubscriber
 	private static class GlobalTrigger {
 		@SubscribeEvent
@@ -23,7 +37,6 @@ public class AmbProcedure {
 			}
 		}
 	}
-
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
@@ -50,13 +63,11 @@ public class AmbProcedure {
 				BiomesOhPlantyMod.LOGGER.warn("Failed to load dependency world for procedure Amb!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		double AmbientSelector = 0;
 		double AmbientTimer = 0;
 		if ((entity instanceof PlayerEntity)) {
@@ -75,13 +86,11 @@ public class AmbProcedure {
 				System.out.println("going");
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-
 					$_dependencies.put("entity", entity);
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-
 					AmbientProcedure.executeProcedure($_dependencies);
 				}
 				{
@@ -94,5 +103,4 @@ public class AmbProcedure {
 			}
 		}
 	}
-
 }
