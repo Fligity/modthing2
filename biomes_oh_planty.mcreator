@@ -1627,6 +1627,15 @@
       "ids": {},
       "registry_name": "camelbycamel",
       "path": "~/Records"
+    },
+    {
+      "name": "Gif",
+      "type": "painting",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gif"
     }
   ],
   "variable_elements": [
