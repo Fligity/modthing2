@@ -1,0 +1,28 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "quornonthecob",
+    "customModelName": "Normal",
+    "name": "Qornonthecob",
+    "rarity": "UNCOMMON",
+    "specialInfo": [
+      "yummy"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 0.6,
+    "eatingSpeed": 20,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "bow",
+    "hasGlow": false
+  }
+}

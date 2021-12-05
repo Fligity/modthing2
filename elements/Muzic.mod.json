@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "calamitydisc",
+    "name": "Muzic bacom",
+    "description": "Archie saxtons penis",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:bacon2"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
