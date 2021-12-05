@@ -1645,6 +1645,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dream"
+    },
+    {
+      "name": "Biden",
+      "type": "painting",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biden"
+    },
+    {
+      "name": "Web",
+      "type": "painting",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "web"
+    },
+    {
+      "name": "Battlefield6",
+      "type": "painting",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "battlefield_6"
+    },
+    {
+      "name": "Cumclass3",
+      "type": "painting",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumclass_3"
     }
   ],
   "variable_elements": [
@@ -1877,12 +1913,12 @@
       "item.biomes_oh_planty.cumore": "Cumore",
       "item.biomes_oh_planty.qorncob": "Qorncob",
       "item.biomes_oh_planty.cumstone_axe": "Cumstone Axe",
-      "subtitles.whatthedogdoin": "What the dog doin?",
       "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
+      "subtitles.whatthedogdoin": "What the dog doin?",
       "item.biomes_oh_planty.joebiden_spawn_egg": "Joebiden Spawn Egg",
       "subtitles.theeggannouncement": "Shadow the Hedgehog",
-      "subtitles.snapcoob": "eg",
       "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
+      "subtitles.snapcoob": "eg",
       "subtitles.thatvideo": "Dancing cat vido",
       "biome.biomes_oh_planty.susus": "Susus",
       "item.biomes_oh_planty.qornonthecob": "Qornonthecob",
