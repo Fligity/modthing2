@@ -51,6 +51,8 @@ public class BiomesOhPlantyModElements {
 		sounds.put(new ResourceLocation("biomes_oh_planty", "calamity"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "calamity")));
 		sounds.put(new ResourceLocation("biomes_oh_planty", "no"), new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "no")));
+		sounds.put(new ResourceLocation("biomes_oh_planty", "bacon"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biomes_oh_planty", "bacon")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("biomes_oh_planty").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

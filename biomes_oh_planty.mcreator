@@ -1467,6 +1467,14 @@
       ],
       "category": "master",
       "subtitle": "table breakage"
+    },
+    {
+      "name": "bacon",
+      "files": [
+        "bacon_1"
+      ],
+      "category": "music",
+      "subtitle": "bacon, bacon, givem e the bacon cuz i want the bacon now give me the bacon"
     }
   ],
   "language_map": {
@@ -1477,10 +1485,10 @@
       "item.biomes_oh_planty.cum_hoe": "Cum Hoe",
       "item.biomes_oh_planty.sperm_spawn_egg": "Sperm Spawn Egg",
       "subtitles.no": "table breakage",
-      "item.biomes_oh_planty.qorncob": "Qorncob",
-      "biome.biomes_oh_planty.sea_men_biome": "Sea Men Biome",
-      "block.biomes_oh_planty.cums": "Cums",
       "item.biomes_oh_planty.cumore": "Cumore",
+      "block.biomes_oh_planty.cums": "Cums",
+      "biome.biomes_oh_planty.sea_men_biome": "Sea Men Biome",
+      "item.biomes_oh_planty.qorncob": "Qorncob",
       "item.biomes_oh_planty.cumstone_axe": "Cumstone Axe",
       "entity.biomes_oh_planty.sperm": "Sperm",
       "biome.biomes_oh_planty.cumzonebiome_1": "CumZone Forest",
@@ -1524,6 +1532,7 @@
       "item.biomes_oh_planty.penite": "Penite",
       "item.biomes_oh_planty.cums_bucket": "Cum in a Bucket",
       "entity.biomes_oh_planty.cocknballs": "cocknballs",
+      "subtitles.bacon": "bacon, bacon, givem e the bacon cuz i want the bacon now give me the bacon",
       "item.biomes_oh_planty.holypeniswood_sword": "Holypeniswood Sword",
       "entity.biomes_oh_planty.cum_beast": "Cum Beast",
       "item.biomes_oh_planty.cum_axe": "Cum Axe",

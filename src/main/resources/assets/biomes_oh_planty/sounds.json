@@ -28,5 +28,15 @@
         "stream": false
       }
     ]
+  },
+  "bacon": {
+    "category": "music",
+    "subtitle": "subtitles.bacon",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:bacon_1",
+        "stream": true
+      }
+    ]
   }
 }
