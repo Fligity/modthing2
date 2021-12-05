@@ -118,5 +118,125 @@
         "stream": false
       }
     ]
+  },
+  "boopbooboo": {
+    "category": "ambient",
+    "subtitle": "subtitles.boopbooboo",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:skype_-_skype_ringtone_hq_sound",
+        "stream": false
+      }
+    ]
+  },
+  "ratialslur": {
+    "category": "ambient",
+    "subtitle": "subtitles.ratialslur",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:ok_lets_go____nig-",
+        "stream": false
+      }
+    ]
+  },
+  "niconiconii": {
+    "category": "ambient",
+    "subtitle": "subtitles.niconiconii",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:nico_nico_nii_car",
+        "stream": false
+      }
+    ]
+  },
+  "blueshell": {
+    "category": "ambient",
+    "subtitle": "subtitles.blueshell",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:mario_kart_wii_-_blue_shell_warning_sound",
+        "stream": false
+      }
+    ]
+  },
+  "whywhywhy": {
+    "category": "ambient",
+    "subtitle": "subtitles.whywhywhy",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:jojo_part_6_stone_ocean_-_pucci_theme_official",
+        "stream": false
+      }
+    ]
+  },
+  "menacing": {
+    "category": "ambient",
+    "subtitle": "subtitles.menacing",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:giornos_theme_but_its_the_menacing_part__green_screen_",
+        "stream": false
+      }
+    ]
+  },
+  "theeggannouncement": {
+    "category": "ambient",
+    "subtitle": "subtitles.theeggannouncement",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:dr_eggman_has_an_announcement_to_make",
+        "stream": false
+      }
+    ]
+  },
+  "thatvideo": {
+    "category": "ambient",
+    "subtitle": "subtitles.thatvideo",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:dog_of_camel",
+        "stream": false
+      }
+    ]
+  },
+  "failure": {
+    "category": "ambient",
+    "subtitle": "subtitles.failure",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:british_national_anthem_fail_in_libya",
+        "stream": false
+      }
+    ]
+  },
+  "cros": {
+    "category": "ambient",
+    "subtitle": "subtitles.cros",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:are_you_gonna_finish_that_croissant_quality_funny_meme",
+        "stream": false
+      }
+    ]
+  },
+  "impasta": {
+    "category": "ambient",
+    "subtitle": "subtitles.impasta",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:among_us_imposter_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "emergency": {
+    "category": "ambient",
+    "subtitle": "subtitles.emergency",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:911_whats_your_emergency__911_dispatcher_call_sound_effect",
+        "stream": false
+      }
+    ]
   }
 }
