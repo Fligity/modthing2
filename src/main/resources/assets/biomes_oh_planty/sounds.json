@@ -38,5 +38,15 @@
         "stream": true
       }
     ]
+  },
+  "bacon2": {
+    "category": "ambient",
+    "subtitle": "subtitles.bacon2",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:bacon_1",
+        "stream": false
+      }
+    ]
   }
 }
