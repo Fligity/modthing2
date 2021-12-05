@@ -1484,6 +1484,14 @@
       ],
       "category": "music",
       "subtitle": "bacon, bacon, givem e the bacon cuz i want the bacon now give me the bacon"
+    },
+    {
+      "name": "bacon2",
+      "files": [
+        "bacon_1"
+      ],
+      "category": "ambient",
+      "subtitle": "bacon bacon give me the bacon cuz i want the bacon now give me theb acon"
     }
   ],
   "language_map": {
@@ -1494,10 +1502,10 @@
       "item.biomes_oh_planty.cum_hoe": "Cum Hoe",
       "item.biomes_oh_planty.sperm_spawn_egg": "Sperm Spawn Egg",
       "subtitles.no": "table breakage",
-      "item.biomes_oh_planty.cumore": "Cumore",
-      "block.biomes_oh_planty.cums": "Cums",
-      "biome.biomes_oh_planty.sea_men_biome": "Sea Men Biome",
       "item.biomes_oh_planty.qorncob": "Qorncob",
+      "biome.biomes_oh_planty.sea_men_biome": "Sea Men Biome",
+      "block.biomes_oh_planty.cums": "Cums",
+      "item.biomes_oh_planty.cumore": "Cumore",
       "item.biomes_oh_planty.cumstone_axe": "Cumstone Axe",
       "entity.biomes_oh_planty.sperm": "Sperm",
       "biome.biomes_oh_planty.cumzonebiome_1": "CumZone Forest",
@@ -1574,6 +1582,7 @@
       "biome.biomes_oh_planty.blackcumbiome": "Blackcumbiome",
       "block.biomes_oh_planty.cumzone_stone": "Cumzone Stone",
       "block.biomes_oh_planty.farmcumzone": "Farmcumzone",
+      "subtitles.bacon2": "bacon bacon give me the bacon cuz i want the bacon now give me theb acon",
       "fluid.biomes_oh_planty.cums": "Cums",
       "item.biomes_oh_planty.cumstone_sword": "Cumstone Sword",
       "block.biomes_oh_planty.cystum_block": "Block of Cystum",
