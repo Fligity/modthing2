@@ -1433,6 +1433,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Cumzoneportal",
+      "type": "structure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumzoneportal"
     }
   ],
   "variable_elements": [
