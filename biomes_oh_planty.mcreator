@@ -1467,14 +1467,6 @@
       ],
       "category": "master",
       "subtitle": "table breakage"
-    },
-    {
-      "name": "bacon_song",
-      "files": [
-        "bacon"
-      ],
-      "category": "music",
-      "subtitle": "Bacon Bacon give me the Bacon"
     }
   ],
   "language_map": {
