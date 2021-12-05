@@ -238,5 +238,15 @@
         "stream": false
       }
     ]
+  },
+  "iamnotoverconfident": {
+    "category": "hostile",
+    "subtitle": "subtitles.iamnotoverconfident",
+    "sounds": [
+      {
+        "name": "biomes_oh_planty:notoverconfident",
+        "stream": false
+      }
+    ]
   }
 }

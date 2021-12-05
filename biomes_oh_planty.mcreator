@@ -1752,6 +1752,14 @@
       ],
       "category": "ambient",
       "subtitle": "911 whats ur"
+    },
+    {
+      "name": "iamnotoverconfident",
+      "files": [
+        "notoverconfident"
+      ],
+      "category": "hostile",
+      "subtitle": "I am not overconfident, I\u0027m just better than everyone else."
     }
   ],
   "language_map": {
@@ -1762,17 +1770,18 @@
       "item.biomes_oh_planty.cumore": "Cumore",
       "item.biomes_oh_planty.qorncob": "Qorncob",
       "item.biomes_oh_planty.cumstone_axe": "Cumstone Axe",
-      "subtitles.whatthedogdoin": "What the dog doin?",
       "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
+      "subtitles.whatthedogdoin": "What the dog doin?",
       "item.biomes_oh_planty.joebiden_spawn_egg": "Joebiden Spawn Egg",
       "subtitles.theeggannouncement": "Shadow the Hedgehog",
-      "subtitles.snapcoob": "eg",
       "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
+      "subtitles.snapcoob": "eg",
       "subtitles.thatvideo": "Dancing cat vido",
       "biome.biomes_oh_planty.susus": "Susus",
       "subtitles.battlefield-cringe-voicelines": "Well, well, well, that was fun!",
       "item.biomes_oh_planty.cum_zone": "Cum Zone Portal Igniter",
       "block.biomes_oh_planty.holy_peniswood_planks": "HolyPeniswood Planks",
+      "subtitles.iamnotoverconfident": "I am not overconfident, I\u0027m just better than everyone else.",
       "block.biomes_oh_planty.pubicblock": "Pubic block",
       "subtitles.ratialslur": "RATIAL SLUR??????????????????????????????",
       "entity.biomes_oh_planty.my_pet": "My Pet",
