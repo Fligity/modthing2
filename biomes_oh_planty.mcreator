@@ -1672,6 +1672,36 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cumclass_3"
+    },
+    {
+      "name": "P1",
+      "type": "painting",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_1",
+      "path": "~/paintings"
+    },
+    {
+      "name": "Genshin",
+      "type": "painting",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "genshin",
+      "path": "~/paintings"
+    },
+    {
+      "name": "Archiebacon",
+      "type": "painting",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "archiebacon",
+      "path": "~/paintings"
     }
   ],
   "variable_elements": [
@@ -1904,12 +1934,12 @@
       "item.biomes_oh_planty.cumore": "Cumore",
       "item.biomes_oh_planty.qorncob": "Qorncob",
       "item.biomes_oh_planty.cumstone_axe": "Cumstone Axe",
-      "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
       "subtitles.whatthedogdoin": "What the dog doin?",
+      "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
       "item.biomes_oh_planty.joebiden_spawn_egg": "Joebiden Spawn Egg",
       "subtitles.theeggannouncement": "Shadow the Hedgehog",
-      "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
       "subtitles.snapcoob": "eg",
+      "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
       "subtitles.thatvideo": "Dancing cat vido",
       "biome.biomes_oh_planty.susus": "Susus",
       "item.biomes_oh_planty.qornonthecob": "Qornonthecob",
@@ -2087,6 +2117,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "paintings",
+        "children": []
       }
     ]
   },
