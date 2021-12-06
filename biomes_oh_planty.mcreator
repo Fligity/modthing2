@@ -1702,6 +1702,76 @@
       "ids": {},
       "registry_name": "archiebacon",
       "path": "~/paintings"
+    },
+    {
+      "name": "Smallarchiebacon",
+      "type": "painting",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smallarchiebacon",
+      "path": "~/paintings"
+    },
+    {
+      "name": "BigP1",
+      "type": "painting",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_p_1",
+      "path": "~/paintings"
+    },
+    {
+      "name": "Biggenshin",
+      "type": "painting",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biggenshin",
+      "path": "~/paintings"
+    },
+    {
+      "name": "Archiestretch",
+      "type": "painting",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "archiestretch",
+      "path": "~/paintings"
+    },
+    {
+      "name": "Cringedani",
+      "type": "painting",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cringedani",
+      "path": "~/paintings"
+    },
+    {
+      "name": "Cumzone1",
+      "type": "painting",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumzone_1",
+      "path": "~/paintings"
+    },
+    {
+      "name": "CUMZONE1biggerandbetter",
+      "type": "painting",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumzone_1biggerandbetter",
+      "path": "~/paintings"
     }
   ],
   "variable_elements": [
@@ -1934,12 +2004,12 @@
       "item.biomes_oh_planty.cumore": "Cumore",
       "item.biomes_oh_planty.qorncob": "Qorncob",
       "item.biomes_oh_planty.cumstone_axe": "Cumstone Axe",
-      "subtitles.whatthedogdoin": "What the dog doin?",
       "block.biomes_oh_planty.holy_peniswood_fence": "HolyPeniswood Fence",
+      "subtitles.whatthedogdoin": "What the dog doin?",
       "item.biomes_oh_planty.joebiden_spawn_egg": "Joebiden Spawn Egg",
       "subtitles.theeggannouncement": "Shadow the Hedgehog",
-      "subtitles.snapcoob": "eg",
       "block.biomes_oh_planty.holy_peniswood_log": "HolyPeniswood Log",
+      "subtitles.snapcoob": "eg",
       "subtitles.thatvideo": "Dancing cat vido",
       "biome.biomes_oh_planty.susus": "Susus",
       "item.biomes_oh_planty.qornonthecob": "Qornonthecob",
