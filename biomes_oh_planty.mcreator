@@ -1638,15 +1638,6 @@
       "registry_name": "gif"
     },
     {
-      "name": "Dream",
-      "type": "painting",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dream"
-    },
-    {
       "name": "Battlefield6",
       "type": "painting",
       "sortid": 154,
